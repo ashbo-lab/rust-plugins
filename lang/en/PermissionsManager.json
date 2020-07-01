@@ -1,0 +1,19 @@
+{
+  "title": "Permissions Manager: ",
+  "NoGroup": "Group {0} was not found.",
+  "NoPlayer": "Player {0} was not found.",
+  "Syntax": "/perms player PlayerName or /perms group GroupName",
+  "GUIAll": "All",
+  "GUINone": "None",
+  "GUIBack": "Back",
+  "GUIClose": "Close",
+  "GUIGroups": "Groups",
+  "GUIGranted": "Granted",
+  "GUIRevoked": "Revoked",
+  "GUIName": "Permissions for {0}",
+  "GUIGroupsFor": "Groups for {0}",
+  "removePlayers": "Remove All Players",
+  "confirm": "Confirm",
+  "cancel": "Cancel",
+  "NotAdmin": "You need Auth Level 2, or permission, to use this command."
+}

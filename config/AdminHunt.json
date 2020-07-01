@@ -1,0 +1,8 @@
+{
+  "eventbypass": false,
+  "Reward": 1000,
+  "hunt": false,
+  "timerLocating": 240.0,
+  "timerMessage": 120.0,
+  "debug": false
+}

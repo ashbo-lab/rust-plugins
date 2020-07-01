@@ -1,0 +1,187 @@
+19:16 [Info] Loading Oxide Core v2.0.3982...
+19:16 [Info] Loading extensions...
+19:16 [Info] Loaded extension CSharp v2.0.4023 by Oxide Team and Contributors
+19:16 [Info] Loaded extension MySql v2.0.3758 by Oxide Team and Contributors
+19:16 [Info] Loaded extension Rust v2.0.4556 by Oxide Team and Contributors
+19:16 [Info] Loaded extension SQLite v2.0.3760 by Oxide Team and Contributors
+19:16 [Info] Loaded extension Unity v2.0.3772 by Oxide Team and Contributors
+19:16 [Info] Latest compiler MD5: 5fbca0bf39b1c09ddf2fb3686b869242
+19:16 [Info] Local compiler MD5: 5fbca0bf39b1c09ddf2fb3686b869242
+19:16 [Info] Using Covalence provider for game 'Rust'
+19:16 [Info] Loading plugins...
+19:16 [Info] Loaded plugin Rust v2.0.4556 by Oxide Team and Contributors
+19:16 [Info] Loaded plugin Unity v2.0.3772 by Oxide Team and Contributors
+19:16 [Info] Added '// Reference: Facepunch.Sqlite' in plugin 'ImageLibrary'
+19:16 [Info] Added '// Reference: UnityEngine.UnityWebRequestModule' in plugin 'ImageLibrary'
+19:16 [Info] AdminHunt, Backpacks, BountyHunter, Clans, Friends, Grid, ImageLibrary, NoAdminLoot, PermissionsManager, PlayerAdministration, RaidableBases, Raids, ServerRewards, ServerTimer, StartProtection and TequilaSafezone were compiled successfully in 0ms
+19:16 [Warning] [AdminHunt] ServerRewards not detected, unloading ServerRewards
+19:16 [Info] Unloaded plugin AdminHunt v1.0.0 by Oegge & ashbo
+19:16 [Info] Loaded plugin AdminHunt v1.0.0 by Oegge & ashbo
+19:16 [Info] Loaded plugin Backpacks v3.0.2 by LaserHydra
+19:16 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+19:16 [Info] Loaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+19:16 [Info] Loaded plugin Clans v0.1.54 by k1lly0u
+19:16 [Info] Loaded plugin Friends v2.2.5 by Nogrod
+19:16 [Info] Loaded plugin Grid v0.0.2 by yetzt
+19:16 [Info] Loaded plugin Image Library v2.0.53 by Absolut & K1lly0u
+19:16 [Info] Loaded plugin NoAdminLoot v1.0.3 by ashbo
+19:16 [Warning] PermissionsManager has replaced the 'global.ClosePM' console command previously registered by BountyHunter
+19:16 [Info] Loaded plugin PermissionsManager v0.1.1 by Steenamaroo
+19:16 [Info] Loaded plugin PlayerAdministration v1.5.26 by ThibmoRozier
+19:16 [Info] Loaded plugin Raidable Bases v1.0.8 by nivex
+19:16 [Info] Loaded plugin Raids v0.0.1 by Faktura
+19:16 [Info] Loaded plugin ServerRewards v0.4.69 by k1lly0u
+19:16 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:16 [Info] Loaded plugin StartProtection v2.3.1 by Norn / wazzzup
+19:16 [Info] Loaded plugin Tequila Safezone v0.0.1 by Faktura
+19:18 [Info] IP address from Steam query: 0.0.0.0
+19:18 [Warning] Calling 'OnServerInitialized' on 'RaidableBases v1.0.8' took 102ms
+19:18 [Warning] [ServerRewards] All UI elements have been successfully generated!
+19:18 [Info] [StartProtection] Entry list up to date.
+19:18 [Info] [StartProtection] Start Protection has been enabled [Minutes: 30] (type /sp toggle to disable).
+19:18 [Warning] [StartProtection] Waiting for ImageLibrary to finish image processing!
+19:18 [Info] [Raidable Bases] Grid initialization completed in 4 seconds and 389 milliseconds on a 3000 size map. 4599 locations are on the grid.
+19:18 [Warning] [StartProtection] Waiting for ImageLibrary to finish image processing!
+19:20 [Info] Added '// Reference: Facepunch.Sqlite' in plugin 'ImageLibrary'
+19:20 [Info] Added '// Reference: UnityEngine.UnityWebRequestModule' in plugin 'ImageLibrary'
+19:20 [Info] Backpacks, BountyHunter, Clans, Friends, Grid, ImageLibrary, NoAdminLoot, PermissionsManager, PlayerAdministration, RaidableBases, Raids, ServerRewards, ServerTimer, StartProtection and TequilaSafezone were compiled successfully in 2417ms
+19:20 [Info] Unloaded plugin Backpacks v3.0.2 by LaserHydra
+19:20 [Info] Unloaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+19:20 [Info] Unloaded plugin Clans v0.1.54 by k1lly0u
+19:20 [Info] Unloaded plugin Friends v2.2.5 by Nogrod
+19:20 [Info] Unloaded plugin Grid v0.0.2 by yetzt
+19:20 [Info] Unloaded plugin Image Library v2.0.53 by Absolut & K1lly0u
+19:20 [Info] Unloaded plugin NoAdminLoot v1.0.3 by ashbo
+19:20 [Info] Unloaded plugin PermissionsManager v0.1.1 by Steenamaroo
+19:20 [Info] Unloaded plugin PlayerAdministration v1.5.26 by ThibmoRozier
+19:20 [Info] Unloaded plugin Raidable Bases v1.0.8 by nivex
+19:20 [Info] Unloaded plugin Raids v0.0.1 by Faktura
+19:20 [Info] Unloaded plugin ServerRewards v0.4.69 by k1lly0u
+19:20 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:20 [Info] [StartProtection] Saving protection database...
+19:20 [Info] Unloaded plugin StartProtection v2.3.1 by Norn / wazzzup
+19:20 [Info] Unloaded plugin Tequila Safezone v0.0.1 by Faktura
+19:20 [Info] Loaded plugin Backpacks v3.0.2 by LaserHydra
+19:20 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+19:20 [Info] Loaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+19:20 [Info] Loaded plugin Clans v0.1.54 by k1lly0u
+19:20 [Info] Loaded plugin Friends v2.2.5 by Nogrod
+19:20 [Info] Loaded plugin Grid v0.0.2 by yetzt
+19:20 [Info] Loaded plugin Image Library v2.0.53 by Absolut & K1lly0u
+19:20 [Info] Loaded plugin NoAdminLoot v1.0.3 by ashbo
+19:20 [Warning] PermissionsManager has replaced the 'global.ClosePM' console command previously registered by BountyHunter
+19:20 [Info] Loaded plugin PermissionsManager v0.1.1 by Steenamaroo
+19:20 [Info] Loaded plugin PlayerAdministration v1.5.26 by ThibmoRozier
+19:20 [Info] Loaded plugin Raidable Bases v1.0.8 by nivex
+19:20 [Info] Loaded plugin Raids v0.0.1 by Faktura
+19:20 [Warning] [ServerRewards] All UI elements have been successfully generated!
+19:20 [Info] Loaded plugin ServerRewards v0.4.69 by k1lly0u
+19:20 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:20 [Info] [StartProtection] Entry list up to date.
+19:20 [Info] [StartProtection] Start Protection has been enabled [Minutes: 30] (type /sp toggle to disable).
+19:20 [Warning] [StartProtection] Waiting for ImageLibrary to finish image processing!
+19:20 [Info] Loaded plugin StartProtection v2.3.1 by Norn / wazzzup
+19:20 [Info] Loaded plugin Tequila Safezone v0.0.1 by Faktura
+19:20 [Info] [Raidable Bases] Grid initialization completed in 3 seconds and 475 milliseconds on a 3000 size map. 4599 locations are on the grid.
+22:54 [Warning] 'ServerRewards v0.4.69' is using deprecated hook 'OnPlayerInit', which will stop working on Monday, 01 June 2020. Please ask the author to update to 'OnPlayerConnected(BasePlayer player)'
+22:57 [Info] BountyHunter was compiled successfully in 2042ms
+22:57 [Info] Unloaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+22:57 [Warning] BountyHunter has replaced the 'global.ClosePM' console command previously registered by PermissionsManager
+22:57 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+22:57 [Info] Loaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+22:57 [Info] BountyHunter was compiled successfully in 232ms
+22:57 [Info] Unloaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+22:57 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+22:57 [Info] Loaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+23:06 [Info] BountyHunter was compiled successfully in 2092ms
+23:06 [Info] Unloaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+23:06 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+23:06 [Info] Loaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+23:08 [Info] BountyHunter was compiled successfully in 2157ms
+23:08 [Info] Unloaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+23:08 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+23:08 [Info] Loaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+23:09 [Error] Error while compiling: BountyHunter.cs(1027,31): error CS1503: Argument `#1' cannot convert `Oxide.Game.Rust.Cui.CuiInputFieldComponent' expression to type `Oxide.Game.Rust.Cui.CuiElement'
+23:09 [Error] Error while compiling: BountyHunter.cs(1027,31): error CS1503: Argument `#1' cannot convert `Oxide.Game.Rust.Cui.CuiInputFieldComponent' expression to type `Oxide.Game.Rust.Cui.CuiButton'
+23:10 [Error] Error while compiling: BountyHunter.cs(1029,31): error CS1503: Argument `#1' cannot convert `Oxide.Game.Rust.Cui.CuiInputFieldComponent' expression to type `Oxide.Game.Rust.Cui.CuiButton'
+23:10 [Error] Error while compiling: BountyHunter.cs(1029,31): error CS1503: Argument `#1' cannot convert `Oxide.Game.Rust.Cui.CuiInputFieldComponent' expression to type `Oxide.Game.Rust.Cui.CuiButton'
+23:10 [Error] Error while compiling: BountyHunter.cs(1029,31): error CS1503: Argument `#1' cannot convert `Oxide.Game.Rust.Cui.CuiInputFieldComponent' expression to type `Oxide.Game.Rust.Cui.CuiButton'
+23:15 [Error] Error while compiling: BountyHunter.cs(1111,12): error CS1525: Unexpected symbol `}'
+23:15 [Error] Error while compiling: BountyHunter.cs(1048,27): error CS1525: Unexpected symbol `)'
+23:16 [Error] Error while compiling: BountyHunter.cs(1111,12): error CS1525: Unexpected symbol `}'
+23:16 [Error] Error while compiling: BountyHunter.cs(1112,12): error CS1525: Unexpected symbol `}'
+23:16 [Error] Error while compiling: BountyHunter.cs(1111,12): error CS1525: Unexpected symbol `}'
+23:17 [Error] Error while compiling: BountyHunter.cs(1029,31): error CS1503: Argument `#1' cannot convert `Oxide.Game.Rust.Cui.CuiElement' expression to type `Oxide.Game.Rust.Cui.CuiButton'
+23:17 [Info] BountyHunter was compiled successfully in 304ms
+23:17 [Info] Unloaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+23:17 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+23:17 [Info] Loaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+23:18 [Info] BountyHunter was compiled successfully in 213ms
+23:18 [Info] Unloaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+23:18 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+23:18 [Info] Loaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+23:19 [Info] BountyHunter was compiled successfully in 253ms
+23:19 [Info] Unloaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+23:19 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+23:19 [Info] Loaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+23:19 [Info] BountyHunter was compiled successfully in 186ms
+23:19 [Info] Unloaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+23:19 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+23:19 [Info] Loaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+23:19 [Info] BountyHunter was compiled successfully in 271ms
+23:19 [Info] Unloaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+23:19 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+23:19 [Info] Loaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+23:20 [Info] BountyHunter was compiled successfully in 217ms
+23:20 [Info] Unloaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+23:20 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+23:20 [Info] Loaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+23:20 [Info] BountyHunter was compiled successfully in 273ms
+23:20 [Info] Unloaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+23:20 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+23:20 [Info] Loaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+23:23 [Info] BountyHunter was compiled successfully in 2050ms
+23:23 [Info] Unloaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+23:23 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+23:23 [Info] Loaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+23:23 [Error] Error while compiling: BountyHunter.cs(1043,25): error CS0747: Inconsistent `collection initializer' member declaration
+23:24 [Error] Error while compiling: BountyHunter.cs(1043,25): error CS0747: Inconsistent `collection initializer' member declaration
+23:24 [Error] Error while compiling: BountyHunter.cs(1031,30): error CS0103: The name `mai' does not exist in the current context
+23:24 [Error] Error while compiling: BountyHunter.cs(1043,25): error CS0747: Inconsistent `collection initializer' member declaration
+23:27 [Error] Error while compiling: BountyHunter.cs(1029,26): error CS1001: Unexpected symbol `.', expecting identifier
+23:28 [Error] Error while compiling: BountyHunter.cs(1029,26): error CS1001: Unexpected symbol `.', expecting identifier
+23:29 [Error] Error while compiling: BountyHunter.cs(1029,26): error CS1001: Unexpected symbol `.', expecting identifier
+23:29 [Error] Error while compiling: BountyHunter.cs(1032,28): error CS0103: The name `UserNameField' does not exist in the current context
+23:29 [Error] Error while compiling: BountyHunter.cs(1031,30): error CS0103: The name `MainCanvas' does not exist in the current context
+23:29 [Info] BountyHunter was compiled successfully in 327ms
+23:29 [Info] Unloaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+23:29 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+23:29 [Info] Loaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+23:31 [Error] Error while compiling: BountyHunter.cs(1049,20): error CS1503: Argument `#1' cannot convert `Oxide.Game.Rust.Cui.CuiPanel' expression to type `Oxide.Game.Rust.Cui.ICuiComponent'
+23:31 [Error] Error while compiling: BountyHunter.cs(1049,20): error CS1503: Argument `#1' cannot convert `Oxide.Game.Rust.Cui.CuiPanel' expression to type `Oxide.Game.Rust.Cui.ICuiComponent'
+23:34 [Error] Error while compiling: BountyHunter.cs(1049,19): error CS1503: Argument `#1' cannot convert `Oxide.Game.Rust.Cui.CuiButton' expression to type `Oxide.Game.Rust.Cui.ICuiComponent'
+23:36 [Warning] [DEBUG] Reload requested for plugin which is already loading: BountyHunter
+23:36 [Error] Error while compiling: BountyHunter.cs(1020,43): error CS1525: Unexpected symbol `List'
+23:37 [Error] Error while compiling: BountyHunter.cs(1067,19): error CS1503: Argument `#1' cannot convert `Oxide.Game.Rust.Cui.CuiButton' expression to type `Oxide.Game.Rust.Cui.ICuiComponent'
+23:37 [Error] Error while compiling: BountyHunter.cs(1099,19): error CS1503: Argument `#1' cannot convert `Oxide.Game.Rust.Cui.CuiButton' expression to type `Oxide.Game.Rust.Cui.ICuiComponent'
+23:44 [Error] Error while compiling: BountyHunter.cs(1072,137): error CS0246: The type or namespace name `CuiColor' could not be found. Are you missing an assembly reference?
+23:44 [Error] Error while compiling: BountyHunter.cs(1071,137): error CS0246: The type or namespace name `CuiColor' could not be found. Are you missing an assembly reference?
+23:46 [Error] Error while compiling: BountyHunter.cs(1072,137): error CS0246: The type or namespace name `CuiColor' could not be found. Are you missing an assembly reference?
+23:47 [Error] Error while compiling: BountyHunter.cs(1272,137): error CS0246: The type or namespace name `CuiColor' could not be found. Are you missing an assembly reference?
+23:47 [Error] Error while compiling: BountyHunter.cs(1266,137): error CS0246: The type or namespace name `CuiColor' could not be found. Are you missing an assembly reference?
+23:47 [Error] Error while compiling: BountyHunter.cs(1266,137): error CS0246: The type or namespace name `CuiColor' could not be found. Are you missing an assembly reference?
+23:47 [Error] Error while compiling: BountyHunter.cs(1266,137): error CS0246: The type or namespace name `CuiColor' could not be found. Are you missing an assembly reference?
+23:48 [Error] Error while compiling: BountyHunter.cs(1274,137): error CS0246: The type or namespace name `CuiColor' could not be found. Are you missing an assembly reference?
+23:51 [Error] Error while compiling: BountyHunter.cs(1245,137): error CS0246: The type or namespace name `CuiColor' could not be found. Are you missing an assembly reference?
+23:52 [Error] Error while compiling: BountyHunter.cs(1247,137): error CS0246: The type or namespace name `CuiColor' could not be found. Are you missing an assembly reference?
+23:52 [Error] Error while compiling: BountyHunter.cs(1247,137): error CS0246: The type or namespace name `CuiColor' could not be found. Are you missing an assembly reference?
+23:52 [Error] Error while compiling: BountyHunter.cs(1249,137): error CS0246: The type or namespace name `CuiColor' could not be found. Are you missing an assembly reference?
+23:56 [Error] Error while compiling: BountyHunter.cs(1249,137): error CS0246: The type or namespace name `CuiColor' could not be found. Are you missing an assembly reference?
+23:57 [Error] Error while compiling: BountyHunter.cs(1248,23): error CS0051: Inconsistent accessibility: parameter type `Oxide.Plugins.BountyHunter.CuiColor' is less accessible than method `Oxide.Plugins.BountyHunter.AddInputField(string, Oxide.Plugins.BountyHunter.CuiPoint, Oxide.Plugins.BountyHunter.CuiPoint, Oxide.Plugins.BountyHunter.CuiPoint, Oxide.Plugins.BountyHunter.CuiPoint, Oxide.Plugins.BountyHunter.CuiColor, string, int, string, bool, string, int, UnityEngine.TextAnchor)'
+23:57 [Error] Error while compiling: BountyHunter.cs(1248,23): error CS0051: Inconsistent accessibility: parameter type `Oxide.Plugins.BountyHunter.CuiColor' is less accessible than method `Oxide.Plugins.BountyHunter.AddInputField(string, Oxide.Plugins.BountyHunter.CuiPoint, Oxide.Plugins.BountyHunter.CuiPoint, Oxide.Plugins.BountyHunter.CuiPoint, Oxide.Plugins.BountyHunter.CuiPoint, Oxide.Plugins.BountyHunter.CuiColor, string, int, string, bool, string, int, UnityEngine.TextAnchor)'
+23:58 [Error] Error while compiling: BountyHunter.cs(1249,137): error CS0246: The type or namespace name `CuiColor' could not be found. Are you missing an assembly reference?
+23:58 [Error] Error while compiling: BountyHunter.cs(1248,23): error CS0051: Inconsistent accessibility: parameter type `Oxide.Plugins.BountyHunter.CuiPoint' is less accessible than method `Oxide.Plugins.BountyHunter.AddInputField(string, Oxide.Plugins.BountyHunter.CuiPoint, Oxide.Plugins.BountyHunter.CuiPoint, Oxide.Plugins.BountyHunter.CuiPoint, Oxide.Plugins.BountyHunter.CuiPoint, Oxide.Plugins.BountyHunter.CuiColor, string, int, string, bool, string, int, UnityEngine.TextAnchor)'
+23:58 [Error] Error while compiling: BountyHunter.cs(1248,23): error CS0051: Inconsistent accessibility: parameter type `Oxide.Plugins.BountyHunter.CuiColor' is less accessible than method `Oxide.Plugins.BountyHunter.AddInputField(string, Oxide.Plugins.BountyHunter.CuiPoint, Oxide.Plugins.BountyHunter.CuiPoint, Oxide.Plugins.BountyHunter.CuiPoint, Oxide.Plugins.BountyHunter.CuiPoint, Oxide.Plugins.BountyHunter.CuiColor, string, int, string, bool, string, int, UnityEngine.TextAnchor)'
+23:58 [Error] Error while compiling: BountyHunter.cs(1248,23): error CS0051: Inconsistent accessibility: parameter type `Oxide.Plugins.BountyHunter.CuiColor' is less accessible than method `Oxide.Plugins.BountyHunter.AddInputField(string, Oxide.Plugins.BountyHunter.CuiPoint, Oxide.Plugins.BountyHunter.CuiPoint, Oxide.Plugins.BountyHunter.CuiPoint, Oxide.Plugins.BountyHunter.CuiPoint, Oxide.Plugins.BountyHunter.CuiColor, string, int, string, bool, string, int, UnityEngine.TextAnchor)'
+23:58 [Error] Error while compiling: BountyHunter.cs(1248,21): error CS1519: Unexpected symbol `string' in class, struct, or interface member declaration
+23:59 [Error] Error while compiling: BountyHunter.cs(1261,20): error CS0103: The name `FContainer' does not exist in the current context

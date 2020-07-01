@@ -1,0 +1,5 @@
+[03:40:47] INFO > Oegge: Opened the menu
+[03:44:11] INFO > Oegge: Opened the menu
+[03:45:22] INFO > Oegge: Opened the menu
+[04:50:24] INFO > Oegge: Opened the menu
+[06:08:52] INFO > Oegge: Opened the menu

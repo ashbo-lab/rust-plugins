@@ -1,0 +1,11 @@
+{
+  "allowedStationItems": {
+    "dropbox.deployed": "dropbox",
+    "box.wooden.large": "large woodbox",
+    "mailbox.deployed": "mailbox",
+    "woodbox_deployed": "small woodbox",
+    "wall.frame.shopfront.metal": "metal shopfront",
+    "fridge.deployed": "fridge",
+    "coffinstorage": "coffin"
+  }
+}

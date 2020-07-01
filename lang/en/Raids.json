@@ -1,0 +1,10 @@
+{
+  "Hit": "Hit Trap",
+  "AllowZone": "In zone",
+  "Allow": "Damage allowed",
+  "CantDamage": "No raid!",
+  "CanRaid": "Raids are now active",
+  "CantRaid": "Raids are now off",
+  "Cmd_Permission": "You don't have permission to use that command",
+  "Cmd_InvalidArgs": "Invalid arguments. Usage: </color=orange>/raids</color> <color=silver><start/stop></color>"
+}

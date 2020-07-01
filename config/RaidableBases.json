@@ -1,0 +1,806 @@
+{
+  "Settings": {
+    "Raid Management": {
+      "Easy Raids Can Spawn On": {
+        "Monday": true,
+        "Tuesday": true,
+        "Wednesday": true,
+        "Thursday": true,
+        "Friday": true,
+        "Saturday": true,
+        "Sunday": true
+      },
+      "Medium Raids Can Spawn On": {
+        "Monday": true,
+        "Tuesday": true,
+        "Wednesday": true,
+        "Thursday": true,
+        "Friday": true,
+        "Saturday": true,
+        "Sunday": true
+      },
+      "Hard Raids Can Spawn On": {
+        "Monday": true,
+        "Tuesday": true,
+        "Wednesday": true,
+        "Thursday": true,
+        "Friday": true,
+        "Saturday": true,
+        "Sunday": true
+      },
+      "Allow Teleport": false,
+      "Allow Cupboard Loot To Drop": true,
+      "Allow Player Bags To Be Lootable At PVP Bases": true,
+      "Allow Player Bags To Be Lootable At PVE Bases": true,
+      "Block Mounted Damage To Bases And Players": false,
+      "Block RestoreUponDeath Plugin For PVP Bases": false,
+      "Block RestoreUponDeath Plugin For PVE Bases": false,
+      "Boxes Are Invulnerable": false,
+      "Bypass Lock Treasure To First Attacker For PVE Bases": false,
+      "Bypass Lock Treasure To First Attacker For PVP Bases": false,
+      "Ignore Containers That Spawn With Loot Already": false,
+      "Lock Treasure To First Attacker": false,
+      "Release Lock On Treasure When First Attacker Is X Meters Away": 300.0,
+      "Lock Treasure Max Inactive Time": 300.0,
+      "Minutes Until Despawn After Looting (min: 1)": 15,
+      "Minutes Until Despawn After Inactive (0 = disabled)": 45,
+      "PVP Delay Between Zone Hopping": 10.0,
+      "Spawn Bases X Distance Apart": 150.0,
+      "Turn Lights On At Night": true,
+      "Turn Lights On Indefinitely": false,
+      "Use Random Codes On Code Locks": true
+    },
+    "Map Markers": {
+      "Marker Name": "Raidable Base Event",
+      "Radius": 0.25,
+      "Use Vending Map Marker": true,
+      "Use Explosion Map Marker": false
+    },
+    "Buyable Events": {
+      "Allow Players To Buy PVP Raids": false,
+      "Cooldown Between Purchases": 60.0,
+      "Convert PVE To PVP": false,
+      "Distance To Spawn Bought Raids From Player": 150.0,
+      "Lock Raid To Buyer And Friends": true,
+      "Max Buyable Events": 1,
+      "Reset Purchased Owner After X Minutes Offline": 10.0,
+      "Spawns Database File (Optional)": "none"
+    },
+    "Maintained Events": {
+      "Always Maintain Max Events": false,
+      "Convert PVE To PVP": false,
+      "Minimum Required Players Online": 1,
+      "Max Maintained Events": 1,
+      "Spawns Database File (Optional)": "none"
+    },
+    "Manual Events": {
+      "Convert PVE To PVP": false,
+      "Max Manual Events": 1,
+      "Spawns Database File (Optional)": "none"
+    },
+    "Scheduled Events": {
+      "Enabled": false,
+      "Convert PVE To PVP": false,
+      "Every Min Seconds": 3600.0,
+      "Every Max Seconds": 7200.0,
+      "Max Scheduled Events": 1,
+      "Minimum Required Players Online": 1,
+      "Spawns Database File (Optional)": "none"
+    },
+    "Economics Buy Raid Costs (0 = disabled)": {
+      "Easy": 0.0,
+      "Medium": 0.0,
+      "Hard": 0.0
+    },
+    "ServerRewards Buy Raid Costs (0 = disabled)": {
+      "Easy": 0,
+      "Medium": 0,
+      "Hard": 0
+    },
+    "Automatically Teleport Admins To Their Map Marker Positions": false,
+    "Block Wizardry Plugin At Events": false,
+    "Chat Steam64ID": 0,
+    "Expansion Mode (Dangerous Treasures)": false,
+    "Remove Admins From Raiders List": false,
+    "Show X Z Coordinates": false,
+    "Buy Raid Command": "buyraid",
+    "Event Command": "rbe",
+    "Hunter Command": "rb",
+    "Server Console Command": "rbevent"
+  },
+  "Event Messages": {
+    "Announce Raid Unlocked": false,
+    "Announce Buy Base Messages": false,
+    "Announce Thief Message": true,
+    "Announce PVE/PVP Enter Messages": true,
+    "Show Destroy Warning": true,
+    "Show Opened Message": true,
+    "Show Prefix": true
+  },
+  "GUIAnnouncements": {
+    "Enabled": false,
+    "Banner Tint Color": "Grey",
+    "Maximum Distance": 300.0,
+    "Text Color": "White"
+  },
+  "Lusty Map": {
+    "Enabled": false,
+    "Icon File": "http://i.imgur.com/XoEMTJj.png",
+    "Icon Name": "rbevent",
+    "Icon Rotation": 0.0
+  },
+  "Raidable Bases": {
+    "Buildings": {
+      "nivex1": {
+        "Additional Bases For This Difficulty": {
+          "nivex4": [
+            {
+              "Option": "stability",
+              "Value": "false"
+            },
+            {
+              "Option": "autoheight",
+              "Value": "false"
+            },
+            {
+              "Option": "height",
+              "Value": "1.0"
+            }
+          ],
+          "nivex5": [
+            {
+              "Option": "stability",
+              "Value": "false"
+            },
+            {
+              "Option": "autoheight",
+              "Value": "false"
+            },
+            {
+              "Option": "height",
+              "Value": "1.0"
+            }
+          ],
+          "nivex6": [
+            {
+              "Option": "stability",
+              "Value": "false"
+            },
+            {
+              "Option": "autoheight",
+              "Value": "false"
+            },
+            {
+              "Option": "height",
+              "Value": "1.0"
+            }
+          ]
+        },
+        "Paste Options": [
+          {
+            "Option": "stability",
+            "Value": "false"
+          },
+          {
+            "Option": "autoheight",
+            "Value": "false"
+          },
+          {
+            "Option": "height",
+            "Value": "1.0"
+          }
+        ],
+        "Arena Walls": {
+          "Enabled": true,
+          "Use Stone Walls": true,
+          "Use Least Amount Of Walls": true,
+          "Use UFO Walls": false,
+          "Extra Stacks": 1
+        },
+        "NPC Levels": {
+          "Level 1 - Play With Fire": {
+            "Amount (0 = disabled)": 0,
+            "Chance To Play": 0.5
+          },
+          "Level 2 - Final Death": false
+        },
+        "NPCs": {
+          "Murderer Items": [
+            "metal.facemask",
+            "metal.plate.torso",
+            "pants",
+            "tactical.gloves",
+            "boots.frog",
+            "tshirt",
+            "machete"
+          ],
+          "Scientist Items": [
+            "hazmatsuit_scientist",
+            "rifle.ak"
+          ],
+          "Murderer Kits": [
+            "murderer_kit_1",
+            "murderer_kit_2"
+          ],
+          "Scientist Kits": [
+            "scientist_kit_1",
+            "scientist_kit_2"
+          ],
+          "Random Names": [],
+          "Amount To Spawn": 3,
+          "Aggression Range": 70.0,
+          "Despawn Inventory On Death": true,
+          "Enabled": true,
+          "Health For Murderers (100 min, 5000 max)": 150.0,
+          "Health For Scientists (100 min, 5000 max)": 150.0,
+          "Minimum Amount To Spawn": 1,
+          "Use Dangerous Treasures NPCs": false,
+          "Spawn Murderers And Scientists": true,
+          "Scientist Weapon Accuracy (0 - 100)": 75.0,
+          "Spawn Murderers": false,
+          "Spawn Random Amount": false,
+          "Spawn Scientists Only": false
+        },
+        "Rewards": {
+          "Economics Money": 0.0,
+          "ServerRewards Points": 0
+        },
+        "Change Building Material Tier To": {
+          "Wooden": false,
+          "Stone": false,
+          "Metal": false,
+          "HQM": false
+        },
+        "Loot (Empty List = Use Treasure Loot)": [],
+        "Add Code Lock To Unlocked Or KeyLocked Doors": true,
+        "Allow Base To Float Above Water": false,
+        "Allow Duplicate Items": false,
+        "Allow Players To Pickup Deployables": false,
+        "Allow Players To Deploy A Cupboard": true,
+        "Allow PVP": true,
+        "Allow Friendly Fire (Teams)": true,
+        "Amount Of Items To Spawn": 6,
+        "Block Outside Damage From Players To Players Inside Events": false,
+        "Block Outside Damage From Players To Bases Inside Events": false,
+        "Difficulty (0 = easy, 1 = medium, 2 = hard)": 0,
+        "Divide Loot Into All Containers": false,
+        "Drop Container Loot X Seconds After It Is Looted": 0.0,
+        "Create Dome Around Event Using Spheres (0 = disabled, recommended = 5)": 5,
+        "Empty All Containers Before Spawning Loot": false,
+        "Eject Enemies From Purchased PVE Raids": false,
+        "Eject Enemies From Purchased PVP Raids": false,
+        "Eject Enemies From Locked PVE Raids": false,
+        "Eject Enemies From Locked PVP Raids": false,
+        "Equip Unequipped AutoTurret With": "rifle.ak",
+        "Explosion Damage Modifier (0-999)": 100.0,
+        "Force All Boxes To Have Same Skin": true,
+        "Maximum Elevation Level": 2.5,
+        "Protection Radius": 50.0,
+        "Block Plugins Which Prevent Item Durability Loss": false,
+        "Remove Equipped AutoTurret Weapon": false,
+        "Require Cupboard Access To Loot": false,
+        "Respawn Npc X Seconds After Death": 0.0,
+        "Skip Treasure Loot And Use Loot In Base Only": false
+      },
+      "nivex2": {
+        "Additional Bases For This Difficulty": {
+          "nivex4": [
+            {
+              "Option": "stability",
+              "Value": "false"
+            },
+            {
+              "Option": "autoheight",
+              "Value": "false"
+            },
+            {
+              "Option": "height",
+              "Value": "1.0"
+            }
+          ],
+          "nivex5": [
+            {
+              "Option": "stability",
+              "Value": "false"
+            },
+            {
+              "Option": "autoheight",
+              "Value": "false"
+            },
+            {
+              "Option": "height",
+              "Value": "1.0"
+            }
+          ],
+          "nivex6": [
+            {
+              "Option": "stability",
+              "Value": "false"
+            },
+            {
+              "Option": "autoheight",
+              "Value": "false"
+            },
+            {
+              "Option": "height",
+              "Value": "1.0"
+            }
+          ]
+        },
+        "Paste Options": [
+          {
+            "Option": "stability",
+            "Value": "false"
+          },
+          {
+            "Option": "autoheight",
+            "Value": "false"
+          },
+          {
+            "Option": "height",
+            "Value": "1.0"
+          }
+        ],
+        "Arena Walls": {
+          "Enabled": true,
+          "Use Stone Walls": true,
+          "Use Least Amount Of Walls": true,
+          "Use UFO Walls": false,
+          "Extra Stacks": 1
+        },
+        "NPC Levels": {
+          "Level 1 - Play With Fire": {
+            "Amount (0 = disabled)": 0,
+            "Chance To Play": 0.5
+          },
+          "Level 2 - Final Death": false
+        },
+        "NPCs": {
+          "Murderer Items": [
+            "metal.facemask",
+            "metal.plate.torso",
+            "pants",
+            "tactical.gloves",
+            "boots.frog",
+            "tshirt",
+            "machete"
+          ],
+          "Scientist Items": [
+            "hazmatsuit_scientist",
+            "rifle.ak"
+          ],
+          "Murderer Kits": [
+            "murderer_kit_1",
+            "murderer_kit_2"
+          ],
+          "Scientist Kits": [
+            "scientist_kit_1",
+            "scientist_kit_2"
+          ],
+          "Random Names": [],
+          "Amount To Spawn": 3,
+          "Aggression Range": 70.0,
+          "Despawn Inventory On Death": true,
+          "Enabled": true,
+          "Health For Murderers (100 min, 5000 max)": 150.0,
+          "Health For Scientists (100 min, 5000 max)": 150.0,
+          "Minimum Amount To Spawn": 1,
+          "Use Dangerous Treasures NPCs": false,
+          "Spawn Murderers And Scientists": true,
+          "Scientist Weapon Accuracy (0 - 100)": 75.0,
+          "Spawn Murderers": false,
+          "Spawn Random Amount": false,
+          "Spawn Scientists Only": false
+        },
+        "Rewards": {
+          "Economics Money": 0.0,
+          "ServerRewards Points": 0
+        },
+        "Change Building Material Tier To": {
+          "Wooden": false,
+          "Stone": false,
+          "Metal": false,
+          "HQM": false
+        },
+        "Loot (Empty List = Use Treasure Loot)": [],
+        "Add Code Lock To Unlocked Or KeyLocked Doors": true,
+        "Allow Base To Float Above Water": false,
+        "Allow Duplicate Items": false,
+        "Allow Players To Pickup Deployables": false,
+        "Allow Players To Deploy A Cupboard": true,
+        "Allow PVP": true,
+        "Allow Friendly Fire (Teams)": true,
+        "Amount Of Items To Spawn": 6,
+        "Block Outside Damage From Players To Players Inside Events": false,
+        "Block Outside Damage From Players To Bases Inside Events": false,
+        "Difficulty (0 = easy, 1 = medium, 2 = hard)": 0,
+        "Divide Loot Into All Containers": false,
+        "Drop Container Loot X Seconds After It Is Looted": 0.0,
+        "Create Dome Around Event Using Spheres (0 = disabled, recommended = 5)": 5,
+        "Empty All Containers Before Spawning Loot": false,
+        "Eject Enemies From Purchased PVE Raids": false,
+        "Eject Enemies From Purchased PVP Raids": false,
+        "Eject Enemies From Locked PVE Raids": false,
+        "Eject Enemies From Locked PVP Raids": false,
+        "Equip Unequipped AutoTurret With": "rifle.ak",
+        "Explosion Damage Modifier (0-999)": 100.0,
+        "Force All Boxes To Have Same Skin": true,
+        "Maximum Elevation Level": 2.5,
+        "Protection Radius": 50.0,
+        "Block Plugins Which Prevent Item Durability Loss": false,
+        "Remove Equipped AutoTurret Weapon": false,
+        "Require Cupboard Access To Loot": false,
+        "Respawn Npc X Seconds After Death": 0.0,
+        "Skip Treasure Loot And Use Loot In Base Only": false
+      },
+      "nivex3": {
+        "Additional Bases For This Difficulty": {
+          "nivex4": [
+            {
+              "Option": "stability",
+              "Value": "false"
+            },
+            {
+              "Option": "autoheight",
+              "Value": "false"
+            },
+            {
+              "Option": "height",
+              "Value": "1.0"
+            }
+          ],
+          "nivex5": [
+            {
+              "Option": "stability",
+              "Value": "false"
+            },
+            {
+              "Option": "autoheight",
+              "Value": "false"
+            },
+            {
+              "Option": "height",
+              "Value": "1.0"
+            }
+          ],
+          "nivex6": [
+            {
+              "Option": "stability",
+              "Value": "false"
+            },
+            {
+              "Option": "autoheight",
+              "Value": "false"
+            },
+            {
+              "Option": "height",
+              "Value": "1.0"
+            }
+          ]
+        },
+        "Paste Options": [
+          {
+            "Option": "stability",
+            "Value": "false"
+          },
+          {
+            "Option": "autoheight",
+            "Value": "false"
+          },
+          {
+            "Option": "height",
+            "Value": "1.0"
+          }
+        ],
+        "Arena Walls": {
+          "Enabled": true,
+          "Use Stone Walls": true,
+          "Use Least Amount Of Walls": true,
+          "Use UFO Walls": false,
+          "Extra Stacks": 1
+        },
+        "NPC Levels": {
+          "Level 1 - Play With Fire": {
+            "Amount (0 = disabled)": 0,
+            "Chance To Play": 0.5
+          },
+          "Level 2 - Final Death": false
+        },
+        "NPCs": {
+          "Murderer Items": [
+            "metal.facemask",
+            "metal.plate.torso",
+            "pants",
+            "tactical.gloves",
+            "boots.frog",
+            "tshirt",
+            "machete"
+          ],
+          "Scientist Items": [
+            "hazmatsuit_scientist",
+            "rifle.ak"
+          ],
+          "Murderer Kits": [
+            "murderer_kit_1",
+            "murderer_kit_2"
+          ],
+          "Scientist Kits": [
+            "scientist_kit_1",
+            "scientist_kit_2"
+          ],
+          "Random Names": [],
+          "Amount To Spawn": 3,
+          "Aggression Range": 70.0,
+          "Despawn Inventory On Death": true,
+          "Enabled": true,
+          "Health For Murderers (100 min, 5000 max)": 150.0,
+          "Health For Scientists (100 min, 5000 max)": 150.0,
+          "Minimum Amount To Spawn": 1,
+          "Use Dangerous Treasures NPCs": false,
+          "Spawn Murderers And Scientists": true,
+          "Scientist Weapon Accuracy (0 - 100)": 75.0,
+          "Spawn Murderers": false,
+          "Spawn Random Amount": false,
+          "Spawn Scientists Only": false
+        },
+        "Rewards": {
+          "Economics Money": 0.0,
+          "ServerRewards Points": 0
+        },
+        "Change Building Material Tier To": {
+          "Wooden": false,
+          "Stone": false,
+          "Metal": false,
+          "HQM": false
+        },
+        "Loot (Empty List = Use Treasure Loot)": [],
+        "Add Code Lock To Unlocked Or KeyLocked Doors": true,
+        "Allow Base To Float Above Water": false,
+        "Allow Duplicate Items": false,
+        "Allow Players To Pickup Deployables": false,
+        "Allow Players To Deploy A Cupboard": true,
+        "Allow PVP": true,
+        "Allow Friendly Fire (Teams)": true,
+        "Amount Of Items To Spawn": 6,
+        "Block Outside Damage From Players To Players Inside Events": false,
+        "Block Outside Damage From Players To Bases Inside Events": false,
+        "Difficulty (0 = easy, 1 = medium, 2 = hard)": 0,
+        "Divide Loot Into All Containers": false,
+        "Drop Container Loot X Seconds After It Is Looted": 0.0,
+        "Create Dome Around Event Using Spheres (0 = disabled, recommended = 5)": 5,
+        "Empty All Containers Before Spawning Loot": false,
+        "Eject Enemies From Purchased PVE Raids": false,
+        "Eject Enemies From Purchased PVP Raids": false,
+        "Eject Enemies From Locked PVE Raids": false,
+        "Eject Enemies From Locked PVP Raids": false,
+        "Equip Unequipped AutoTurret With": "rifle.ak",
+        "Explosion Damage Modifier (0-999)": 100.0,
+        "Force All Boxes To Have Same Skin": true,
+        "Maximum Elevation Level": 2.5,
+        "Protection Radius": 50.0,
+        "Block Plugins Which Prevent Item Durability Loss": false,
+        "Remove Equipped AutoTurret Weapon": false,
+        "Require Cupboard Access To Loot": false,
+        "Respawn Npc X Seconds After Death": 0.0,
+        "Skip Treasure Loot And Use Loot In Base Only": false
+      }
+    }
+  },
+  "Ranked Ladder": {
+    "Award Top X Players On Wipe": 3,
+    "Enabled": true
+  },
+  "Skins": {
+    "Include Workshop Skins": true,
+    "Preset Skin": 0,
+    "Use Random Skin": true
+  },
+  "Treasure": {
+    "Use Random Skins": false,
+    "Include Workshop Skins": false,
+    "Use Day Of Week Loot": false,
+    "Percent Minimum Loss": 0.0,
+    "Percent Increase When Using Day Of Week Loot": false,
+    "Day Of Week Loot Monday": [],
+    "Day Of Week Loot Tuesday": [],
+    "Day Of Week Loot Wednesday": [],
+    "Day Of Week Loot Thursday": [],
+    "Day Of Week Loot Friday": [],
+    "Day Of Week Loot Saturday": [],
+    "Day Of Week Loot Sunday": [],
+    "Percent Increase On Monday": 0.0,
+    "Percent Increase On Tuesday": 0.0,
+    "Percent Increase On Wednesday": 0.0,
+    "Percent Increase On Thursday": 0.0,
+    "Percent Increase On Friday": 0.0,
+    "Percent Increase On Saturday": 0.0,
+    "Percent Increase On Sunday": 0.0,
+    "Loot (Easy Difficulty)": [],
+    "Loot (Medium Difficulty)": [],
+    "Loot (Hard Difficulty)": [],
+    "Loot": [
+      {
+        "shortname": "ammo.pistol",
+        "amount": 40,
+        "skin": 0,
+        "amountMin": 40
+      },
+      {
+        "shortname": "ammo.pistol.fire",
+        "amount": 40,
+        "skin": 0,
+        "amountMin": 40
+      },
+      {
+        "shortname": "ammo.pistol.hv",
+        "amount": 40,
+        "skin": 0,
+        "amountMin": 40
+      },
+      {
+        "shortname": "ammo.rifle",
+        "amount": 60,
+        "skin": 0,
+        "amountMin": 60
+      },
+      {
+        "shortname": "ammo.rifle.explosive",
+        "amount": 60,
+        "skin": 0,
+        "amountMin": 60
+      },
+      {
+        "shortname": "ammo.rifle.hv",
+        "amount": 60,
+        "skin": 0,
+        "amountMin": 60
+      },
+      {
+        "shortname": "ammo.rifle.incendiary",
+        "amount": 60,
+        "skin": 0,
+        "amountMin": 60
+      },
+      {
+        "shortname": "ammo.shotgun",
+        "amount": 24,
+        "skin": 0,
+        "amountMin": 24
+      },
+      {
+        "shortname": "ammo.shotgun.slug",
+        "amount": 40,
+        "skin": 0,
+        "amountMin": 40
+      },
+      {
+        "shortname": "surveycharge",
+        "amount": 20,
+        "skin": 0,
+        "amountMin": 20
+      },
+      {
+        "shortname": "metal.refined",
+        "amount": 150,
+        "skin": 0,
+        "amountMin": 150
+      },
+      {
+        "shortname": "bucket.helmet",
+        "amount": 1,
+        "skin": 0,
+        "amountMin": 1
+      },
+      {
+        "shortname": "cctv.camera",
+        "amount": 1,
+        "skin": 0,
+        "amountMin": 1
+      },
+      {
+        "shortname": "coffeecan.helmet",
+        "amount": 1,
+        "skin": 0,
+        "amountMin": 1
+      },
+      {
+        "shortname": "explosive.timed",
+        "amount": 1,
+        "skin": 0,
+        "amountMin": 1
+      },
+      {
+        "shortname": "metal.facemask",
+        "amount": 1,
+        "skin": 0,
+        "amountMin": 1
+      },
+      {
+        "shortname": "metal.plate.torso",
+        "amount": 1,
+        "skin": 0,
+        "amountMin": 1
+      },
+      {
+        "shortname": "mining.quarry",
+        "amount": 1,
+        "skin": 0,
+        "amountMin": 1
+      },
+      {
+        "shortname": "pistol.m92",
+        "amount": 1,
+        "skin": 0,
+        "amountMin": 1
+      },
+      {
+        "shortname": "rifle.ak",
+        "amount": 1,
+        "skin": 0,
+        "amountMin": 1
+      },
+      {
+        "shortname": "rifle.bolt",
+        "amount": 1,
+        "skin": 0,
+        "amountMin": 1
+      },
+      {
+        "shortname": "rifle.lr300",
+        "amount": 1,
+        "skin": 0,
+        "amountMin": 1
+      },
+      {
+        "shortname": "smg.2",
+        "amount": 1,
+        "skin": 0,
+        "amountMin": 1
+      },
+      {
+        "shortname": "smg.mp5",
+        "amount": 1,
+        "skin": 0,
+        "amountMin": 1
+      },
+      {
+        "shortname": "smg.thompson",
+        "amount": 1,
+        "skin": 0,
+        "amountMin": 1
+      },
+      {
+        "shortname": "supply.signal",
+        "amount": 1,
+        "skin": 0,
+        "amountMin": 1
+      },
+      {
+        "shortname": "targeting.computer",
+        "amount": 1,
+        "skin": 0,
+        "amountMin": 1
+      }
+    ]
+  },
+  "TruePVE": {
+    "Allow PVP Server-Wide During Events": false
+  },
+  "Weapons": {
+    "Infinite Ammo": {
+      "AutoTurret": true,
+      "FlameTurret": true,
+      "FogMachine": true,
+      "GunTrap": true,
+      "SamSite": true
+    },
+    "Ammo": {
+      "AutoTurret": 256,
+      "FlameTurret": 256,
+      "FogMachine": 5,
+      "GunTrap": 128,
+      "SamSite": 24
+    },
+    "SamSite Repairs Every X Minutes (0.0 = disabled)": 5.0
+  }
+}

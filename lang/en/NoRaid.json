@@ -1,0 +1,18 @@
+{
+  "CantDamage": "You cannot damage that entity because you are not associated with the building owner",
+  "CanRaid": "The raid cooldown has now been lifted, you're now able to raid!",
+  "Cmd_CanRaid": "The cooldown has been lifted, you're able to raid whoever you want!",
+  "Cmd_CantRaid": "You can't raid just yet, wait another <color=orange>{0}</color>",
+  "Cmd_Permission": "You don't have permission to use that command",
+  "Cmd_InvalidArgs": "Invalid arguments. Usage: </color=orange>/noraid</color> <color=silver><start/stop> OPTIONAL: <min></color>",
+  "Cmd_CantStart": "Cannot start a no raid period, there's already one running.",
+  "Cmd_NoRaid": "A no raid period has begun, you can raid in <color=orange>{0}</color>",
+  "Ui_Title": "RAID COOLDOWN",
+  "Msg_DayFormat": "{0}D {1}H",
+  "Msg_DaysFormat": "{0}D {1}H",
+  "Msg_HourFormat": "{0}H {1}M",
+  "Msg_HoursFormat": "{0}H {1}M",
+  "Msg_MinFormat": "{0}M {1}S",
+  "Msg_MinsFormat": "{0}M {1}S",
+  "Msg_SecsFormat": "{0}S"
+}

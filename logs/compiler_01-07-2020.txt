@@ -1,0 +1,69 @@
+[SERVER v1.0.24] Started as service
+[SERVER v1.0.24] Running as service
+[SERVER v1.0.24] Got Message: Ready
+[SERVER v1.0.24] Got Message: Compile
+[SERVER v1.0.24] Console: PlayerAdministration.cs(51,27): warning CS1692: Invalid number
+PlayerAdministration.cs(71,27): warning CS1692: Invalid number
+Grid.cs(13,8): warning CS0114: `Oxide.Plugins.Grid.LoadDefaultMessages()' hides inherited member `Oxide.Core.Plugins.Plugin.LoadDefaultMessages()'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword
+C:\RustServer\RustServer\Oxide.Core.dll (Location of the symbol related to previous warning)
+StartProtection.cs(1136,14): warning CS0114: `Oxide.Plugins.StartProtection.LoadDefaultMessages()' hides inherited member `Oxide.Core.Plugins.Plugin.LoadDefaultMessages()'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword
+C:\RustServer\RustServer\Oxide.Core.dll (Location of the symbol related to previous warning)
+AdminHunt.cs(294,27): warning CS0219: The variable `health' is assigned but its value is never used
+AdminHunt.cs(199,23): warning CS0219: The variable `Coordsx' is assigned but its value is never used
+AdminHunt.cs(200,23): warning CS0219: The variable `Coordsy' is assigned but its value is never used
+BountyHunter.cs(250,23): warning CS0219: The variable `health' is assigned but its value is never used
+BountyHunter.cs(1050,27): warning CS0168: The variable `missions' is declared but never used
+BountyHunter.cs(1304,20): warning CS0219: The variable `LeftAMin1' is assigned but its value is never used
+BountyHunter.cs(1304,37): warning CS0219: The variable `AMin2' is assigned but its value is never used
+BountyHunter.cs(1304,51): warning CS0219: The variable `LeftAMax1' is assigned but its value is never used
+BountyHunter.cs(1304,68): warning CS0219: The variable `AMax2' is assigned but its value is never used
+BountyHunter.cs(1304,82): warning CS0219: The variable `CenterAMin1' is assigned but its value is never used
+BountyHunter.cs(1304,101): warning CS0219: The variable `CenterAMax1' is assigned but its value is never used
+BountyHunter.cs(1304,120): warning CS0219: The variable `RightAMin1' is assigned but its value is never used
+BountyHunter.cs(1304,138): warning CS0219: The variable `RightAMax1' is assigned but its value is never used
+BountyHunter.cs(1305,17): warning CS0219: The variable `plugsTotal' is assigned but its value is never used
+BountyHunter.cs(1305,33): warning CS0219: The variable `pos1' is assigned but its value is never used
+BountyHunter.cs(1305,60): warning CS0219: The variable `next' is assigned but its value is never used
+BountyHunter.cs(1305,79): warning CS0219: The variable `previous' is assigned but its value is never used
+BountyHunter.cs(1554,24): warning CS0219: The variable `player' is assigned but its value is never used
+CopyPaste.cs(952,17): warning CS0219: The variable `ioEntities' is assigned but its value is never used
+CopyPaste.cs(953,18): warning CS0219: The variable `buildingId' is assigned but its value is never used
+CopyPaste.cs(1514,40): warning CS0168: The variable `temp' is declared but never used
+CopyPaste.cs(1624,49): warning CS0618: `UnityEngine.Quaternion.EulerRotation(UnityEngine.Vector3)' is obsolete: `Use Quaternion.Euler instead. This function was deprecated because it uses radians instead of degrees.'
+CopyPaste.cs(1641,32): warning CS0618: `UnityEngine.Quaternion.EulerRotation(UnityEngine.Vector3)' is obsolete: `Use Quaternion.Euler instead. This function was deprecated because it uses radians instead of degrees.'
+ImageLibrary.cs(633,59): warning CS0219: The variable `loadOrder' is assigned but its value is never used
+ImageLibrary.cs(736,75): warning CS0219: The variable `loadOrder' is assigned but its value is never used
+NoAdminLoot.cs(61,34): warning CS0168: The variable `e' is declared but never used
+PermissionsManager.cs(176,17): warning CS0219: The variable `pageNo' is assigned but its value is never used
+PermissionsManager.cs(448,50): warning CS0219: The variable `PermInHand' is assigned but its value is never used
+RaidableBases.cs(4859,28): warning CS1717: Assignment made to same variable; did you mean to assign something else?
+ServerRewards.cs(416,24): warning CS0219: The variable `categories' is assigned but its value is never used
+ServerTimer.cs(99,22): warning CS0219: The variable `args' is assigned but its value is never used
+ServerTimer.cs(387,20): warning CS0219: The variable `guiString' is assigned but its value is never used
+StartProtection.cs(793,17): warning CS0219: The variable `panel' is assigned but its value is never used
+AdminHunt.cs(40,31): warning CS0414: The private field `Oxide.Plugins.AdminHunt.debug' is assigned but its value is never used
+AdminHunt.cs(45,34): warning CS0414: The private field `Oxide.Plugins.AdminHunt._instance' is assigned but its value is never used
+BountyHunter.cs(122,30): warning CS0414: The private field `Oxide.Plugins.BountyHunter._instance' is assigned but its value is never used
+BountyHunter.cs(782,24): warning CS0414: The private field `Oxide.Plugins.BountyHunter.AnchorMin1' is assigned but its value is never used
+BountyHunter.cs(785,23): warning CS0414: The private field `Oxide.Plugins.BountyHunter.AnchorMax1' is assigned but its value is never used
+ImageLibrary.cs(45,26): warning CS0414: The private field `Oxide.Plugins.ImageLibrary.itemShortNames' is assigned but its value is never used
+ImageLibrary.cs(965,26): warning CS0414: The private field `Oxide.Plugins.ImageLibrary.ImageAssets.isLoading' is assigned but its value is never used
+PermissionsManager.cs(30,24): warning CS0649: Field `Oxide.Plugins.PermissionsManager.Info.plugNumber' is never assigned to, and will always have its default value `0'
+RaidableBases.cs(670,21): warning CS0414: The private field `Oxide.Plugins.RaidableBases.FinalDestination.lastPosition' is assigned but its value is never used
+Raids.cs(28,30): warning CS0414: The private field `Oxide.Plugins.Raids._instance' is assigned but its value is never used
+ServerRewards.cs(40,29): warning CS0649: Field `Oxide.Plugins.ServerRewards.uiFadeIn' is never assigned to, and will always have its default value `false'
+ServerRewards.cs(26,33): warning CS0169: The private field `Oxide.Plugins.ServerRewards.EventManager' is never used
+ServerRewards.cs(26,47): warning CS0169: The private field `Oxide.Plugins.ServerRewards.HumanNPC' is never used
+ServerRewards.cs(26,67): warning CS0169: The private field `Oxide.Plugins.ServerRewards.PlaytimeTracker' is never used
+ServerTimer.cs(41,28): warning CS0414: The private field `Oxide.Plugins.ServerTimer.MinutesToSeconds' is assigned but its value is never used
+ServerTimer.cs(44,36): warning CS0414: The private field `Oxide.Plugins.ServerTimer._instance' is assigned but its value is never used
+ServerTimer.cs(47,30): warning CS0414: The private field `Oxide.Plugins.ServerTimer.HoursTimer' is assigned but its value is never used
+StartProtection.cs(72,24): warning CS0414: The private field `Oxide.Plugins.StartProtection.UILayer' is assigned but its value is never used
+StartProtection.cs(19,39): warning CS0169: The private field `Oxide.Plugins.StartProtection.Duelist' is never used
+StartProtection.cs(19,48): warning CS0169: The private field `Oxide.Plugins.StartProtection.EventManager' is never used
+TequilaSafezone.cs(20,40): warning CS0414: The private field `Oxide.Plugins.TequilaSafezone._instance' is assigned but its value is never used
+
+[SERVER v1.0.24] Got Message: Exit
+[SERVER v1.0.24] Exit received.
+[SERVER v1.0.24] Connection closed.
+[SERVER v1.0.24] Shutdown

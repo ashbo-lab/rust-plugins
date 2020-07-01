@@ -1,0 +1,525 @@
+18:01 [Info] Loading Oxide Core v2.0.3982...
+18:01 [Info] Loading extensions...
+18:02 [Info] Loaded extension CSharp v2.0.4023 by Oxide Team and Contributors
+18:02 [Info] Loaded extension MySql v2.0.3758 by Oxide Team and Contributors
+18:02 [Info] Loaded extension Rust v2.0.4556 by Oxide Team and Contributors
+18:02 [Info] Loaded extension SQLite v2.0.3760 by Oxide Team and Contributors
+18:02 [Info] Loaded extension Unity v2.0.3772 by Oxide Team and Contributors
+18:02 [Info] Latest compiler MD5: 5fbca0bf39b1c09ddf2fb3686b869242
+18:02 [Info] Local compiler MD5: 5fbca0bf39b1c09ddf2fb3686b869242
+18:02 [Info] Using Covalence provider for game 'Rust'
+18:02 [Info] Loading plugins...
+18:02 [Info] Loaded plugin Rust v2.0.4556 by Oxide Team and Contributors
+18:02 [Info] Loaded plugin Unity v2.0.3772 by Oxide Team and Contributors
+18:02 [Info] Added '// Reference: Facepunch.Sqlite' in plugin 'ImageLibrary'
+18:02 [Info] Added '// Reference: UnityEngine.UnityWebRequestModule' in plugin 'ImageLibrary'
+18:02 [Info] AdminHunt, Backpacks, BountyHunter, Clans, Friends, Grid, ImageLibrary, NoAdminLoot, PermissionsManager, PlayerAdministration, ServerRewards and StartProtection were compiled successfully in 0ms
+18:02 [Warning] [AdminHunt] ServerRewards not detected, unloading ServerRewards
+18:02 [Info] Unloaded plugin AdminHunt v1.0.0 by Oegge & ashbo
+18:02 [Info] Loaded plugin AdminHunt v1.0.0 by Oegge & ashbo
+18:02 [Info] Loaded plugin Backpacks v3.0.2 by LaserHydra
+18:02 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+18:02 [Info] Loaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+18:02 [Info] Loaded plugin Clans v0.1.54 by k1lly0u
+18:02 [Info] Loaded plugin Friends v2.2.5 by Nogrod
+18:02 [Warning] Calling 'LoadDefaultMessages' on 'Grid v0.0.2' took 133ms
+18:02 [Info] Loaded plugin Grid v0.0.2 by yetzt
+18:02 [Info] Loaded plugin Image Library v2.0.53 by Absolut & K1lly0u
+18:02 [Info] Loaded plugin NoAdminLoot v1.0.3 by ashbo
+18:02 [Warning] PermissionsManager has replaced the 'global.ClosePM' console command previously registered by BountyHunter
+18:02 [Info] Loaded plugin PermissionsManager v0.1.1 by Steenamaroo
+18:02 [Info] Loaded plugin PlayerAdministration v1.5.26 by ThibmoRozier
+18:02 [Info] Loaded plugin ServerRewards v0.4.69 by k1lly0u
+18:02 [Info] Loaded plugin StartProtection v2.3.1 by Norn / wazzzup
+18:02 [Error] Error while compiling: ServerTimer.cs(62,29): error CS0115: `ServerTimer.SaveConfig()' is marked as an override but no suitable method found to override
+18:04 [Info] IP address from Steam query: 0.0.0.0
+18:04 [Warning] [ServerRewards] All UI elements have been successfully generated!
+18:04 [Warning] Calling 'OnServerInitialized' on 'ServerRewards v0.4.69' took 249ms
+18:04 [Info] [StartProtection] Entry list up to date.
+18:04 [Info] [StartProtection] Start Protection has been enabled [Minutes: 30] (type /sp toggle to disable).
+18:04 [Warning] [StartProtection] Waiting for ImageLibrary to finish image processing!
+18:04 [Info] ServerTimer was compiled successfully in 863ms
+18:04 [Warning] ServerTimer has polluted the global namespace by defining ServerTimer
+18:04 [Error] Unable to find main plugin class: ServerTimer
+18:04 [Info] No previous version to rollback plugin: ServerTimer
+18:05 [Info] ServerTimer was compiled successfully in 189ms
+18:05 [Warning] ServerTimer has polluted the global namespace by defining ServerTimer
+18:05 [Error] Unable to find main plugin class: ServerTimer
+18:05 [Info] No previous version to rollback plugin: ServerTimer
+18:05 [Info] ServerTimer was compiled successfully in 229ms
+18:05 [Warning] ServerTimer has polluted the global namespace by defining ServerTimer
+18:05 [Error] Unable to find main plugin class: ServerTimer
+18:05 [Info] No previous version to rollback plugin: ServerTimer
+18:05 [Error] Error while compiling: ServerTimer.cs(22,1): error CS1514: Unexpected symbol `[', expecting `.' or `{'
+18:06 [Error] Error while compiling: ServerTimer.cs(22,1): error CS1514: Unexpected symbol `[', expecting `.' or `{'
+18:06 [Error] Error while compiling: ServerTimer.cs(22,1): error CS1514: Unexpected symbol `[', expecting `.' or `{'
+18:06 [Error] Error while compiling: ServerTimer.cs(92,250): error CS1525: Unexpected symbol `end-of-file'
+18:06 [Error] Error while compiling: ServerTimer.cs(92,250): error CS1525: Unexpected symbol `end-of-file'
+18:06 [Error] Error while compiling: ServerTimer.cs(92,250): error CS1525: Unexpected symbol `end-of-file'
+18:07 [Info] ServerTimer was compiled successfully in 147ms
+18:07 [Warning] [AdminHunt] Generating default configuration file...
+18:07 [Info] Loaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+18:08 [Warning] 'ServerRewards v0.4.69' is using deprecated hook 'OnPlayerInit', which will stop working on Monday, 01 June 2020. Please ask the author to update to 'OnPlayerConnected(BasePlayer player)'
+18:08 [Error] Error while compiling: ServerTimer.cs(88,43): error CS1503: Argument `#2' cannot convert `System.TimeSpan' expression to type `string'
+18:09 [Info] ServerTimer was compiled successfully in 250ms
+18:09 [Info] Unloaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+18:09 [Info] Loaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+18:10 [Error] Error while compiling: ServerTimer.cs(96,8): error CS1525: Unexpected symbol `}'
+18:18 [Info] ServerTimer was compiled successfully in 1955ms
+18:18 [Info] Unloaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+18:18 [Info] Loaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+18:20 [Error] Failed to call hook 'purgeTimerSet' on plugin 'ServerTimer v0.0.1' (FormatException: String was not recognized as a valid DateTime.)
+  at System.DateTimeParse.Parse (System.String s, System.Globalization.DateTimeFormatInfo dtfi, System.Globalization.DateTimeStyles styles) [0x00029] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.DateTime.Parse (System.String s) [0x00006] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at Oxide.Plugins.ServerTimer.purgeTimerSet (BasePlayer player, System.String command, System.String[] args) [0x00064] in <6c869d42a3dd4e239ff8be8df0b40ca5>:0 
+  at Oxide.Plugins.ServerTimer.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00187] in <6c869d42a3dd4e239ff8be8df0b40ca5>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <008b12f41ec4452da1a5497eeb849299>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <ac41dd3599754d448b8c218b34645820>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <ac41dd3599754d448b8c218b34645820>:0 
+18:20 [Error] Failed to call hook 'purgeTimerSet' on plugin 'ServerTimer v0.0.1' (FormatException: String was not recognized as a valid DateTime.)
+  at System.DateTimeParse.Parse (System.String s, System.Globalization.DateTimeFormatInfo dtfi, System.Globalization.DateTimeStyles styles) [0x00029] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.DateTime.Parse (System.String s) [0x00006] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at Oxide.Plugins.ServerTimer.purgeTimerSet (BasePlayer player, System.String command, System.String[] args) [0x00064] in <6c869d42a3dd4e239ff8be8df0b40ca5>:0 
+  at Oxide.Plugins.ServerTimer.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00187] in <6c869d42a3dd4e239ff8be8df0b40ca5>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <008b12f41ec4452da1a5497eeb849299>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <ac41dd3599754d448b8c218b34645820>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <ac41dd3599754d448b8c218b34645820>:0 
+18:20 [Error] Failed to call hook 'purgeTimerSet' on plugin 'ServerTimer v0.0.1' (FormatException: String was not recognized as a valid DateTime.)
+  at System.DateTimeParse.Parse (System.String s, System.Globalization.DateTimeFormatInfo dtfi, System.Globalization.DateTimeStyles styles) [0x00029] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.DateTime.Parse (System.String s) [0x00006] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at Oxide.Plugins.ServerTimer.purgeTimerSet (BasePlayer player, System.String command, System.String[] args) [0x00064] in <6c869d42a3dd4e239ff8be8df0b40ca5>:0 
+  at Oxide.Plugins.ServerTimer.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00187] in <6c869d42a3dd4e239ff8be8df0b40ca5>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <008b12f41ec4452da1a5497eeb849299>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <ac41dd3599754d448b8c218b34645820>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <ac41dd3599754d448b8c218b34645820>:0 
+18:21 [Error] Failed to call hook 'purgeTimerSet' on plugin 'ServerTimer v0.0.1' (FormatException: String was not recognized as a valid DateTime.)
+  at System.DateTimeParse.Parse (System.String s, System.Globalization.DateTimeFormatInfo dtfi, System.Globalization.DateTimeStyles styles) [0x00029] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.DateTime.Parse (System.String s) [0x00006] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at Oxide.Plugins.ServerTimer.purgeTimerSet (BasePlayer player, System.String command, System.String[] args) [0x00064] in <6c869d42a3dd4e239ff8be8df0b40ca5>:0 
+  at Oxide.Plugins.ServerTimer.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00187] in <6c869d42a3dd4e239ff8be8df0b40ca5>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <008b12f41ec4452da1a5497eeb849299>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <ac41dd3599754d448b8c218b34645820>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <ac41dd3599754d448b8c218b34645820>:0 
+18:21 [Error] Failed to call hook 'purgeTimerSet' on plugin 'ServerTimer v0.0.1' (FormatException: String was not recognized as a valid DateTime.)
+  at System.DateTimeParse.Parse (System.String s, System.Globalization.DateTimeFormatInfo dtfi, System.Globalization.DateTimeStyles styles) [0x00029] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.DateTime.Parse (System.String s) [0x00006] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at Oxide.Plugins.ServerTimer.purgeTimerSet (BasePlayer player, System.String command, System.String[] args) [0x00064] in <6c869d42a3dd4e239ff8be8df0b40ca5>:0 
+  at Oxide.Plugins.ServerTimer.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00187] in <6c869d42a3dd4e239ff8be8df0b40ca5>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <008b12f41ec4452da1a5497eeb849299>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <ac41dd3599754d448b8c218b34645820>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <ac41dd3599754d448b8c218b34645820>:0 
+18:21 [Error] Failed to call hook 'purgeTimerSet' on plugin 'ServerTimer v0.0.1' (FormatException: String was not recognized as a valid DateTime.)
+  at System.DateTimeParse.Parse (System.String s, System.Globalization.DateTimeFormatInfo dtfi, System.Globalization.DateTimeStyles styles) [0x00029] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.DateTime.Parse (System.String s) [0x00006] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at Oxide.Plugins.ServerTimer.purgeTimerSet (BasePlayer player, System.String command, System.String[] args) [0x00064] in <6c869d42a3dd4e239ff8be8df0b40ca5>:0 
+  at Oxide.Plugins.ServerTimer.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00187] in <6c869d42a3dd4e239ff8be8df0b40ca5>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <008b12f41ec4452da1a5497eeb849299>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <ac41dd3599754d448b8c218b34645820>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <ac41dd3599754d448b8c218b34645820>:0 
+18:21 [Error] Failed to call hook 'purgeTimerSet' on plugin 'ServerTimer v0.0.1' (FormatException: String was not recognized as a valid DateTime.)
+  at System.DateTimeParse.Parse (System.String s, System.Globalization.DateTimeFormatInfo dtfi, System.Globalization.DateTimeStyles styles) [0x00029] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.DateTime.Parse (System.String s) [0x00006] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at Oxide.Plugins.ServerTimer.purgeTimerSet (BasePlayer player, System.String command, System.String[] args) [0x00064] in <6c869d42a3dd4e239ff8be8df0b40ca5>:0 
+  at Oxide.Plugins.ServerTimer.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00187] in <6c869d42a3dd4e239ff8be8df0b40ca5>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <008b12f41ec4452da1a5497eeb849299>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <ac41dd3599754d448b8c218b34645820>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <ac41dd3599754d448b8c218b34645820>:0 
+18:24 [Info] ServerTimer was compiled successfully in 2130ms
+18:24 [Info] Unloaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+18:24 [Info] Loaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+18:30 [Info] ServerTimer was compiled successfully in 1941ms
+18:30 [Info] Unloaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+18:30 [Info] Loaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+18:31 [Error] Failed to call hook 'purgeTimerSet' on plugin 'ServerTimer v0.0.1' (FormatException: String was not recognized as a valid DateTime.)
+  at System.DateTimeParse.ParseExact (System.String s, System.String format, System.Globalization.DateTimeFormatInfo dtfi, System.Globalization.DateTimeStyles style) [0x0002a] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.DateTime.ParseExact (System.String s, System.String format, System.IFormatProvider provider) [0x00008] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at Oxide.Plugins.ServerTimer.purgeTimerSet (BasePlayer player, System.String command, System.String[] args) [0x0007d] in <28081c9b612c497197031dc62f88b83d>:0 
+  at Oxide.Plugins.ServerTimer.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00187] in <28081c9b612c497197031dc62f88b83d>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <008b12f41ec4452da1a5497eeb849299>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <ac41dd3599754d448b8c218b34645820>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <ac41dd3599754d448b8c218b34645820>:0 
+18:31 [Error] Failed to call hook 'purgeTimerSet' on plugin 'ServerTimer v0.0.1' (FormatException: String was not recognized as a valid DateTime.)
+  at System.DateTimeParse.ParseExact (System.String s, System.String format, System.Globalization.DateTimeFormatInfo dtfi, System.Globalization.DateTimeStyles style) [0x0002a] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.DateTime.ParseExact (System.String s, System.String format, System.IFormatProvider provider) [0x00008] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at Oxide.Plugins.ServerTimer.purgeTimerSet (BasePlayer player, System.String command, System.String[] args) [0x0007d] in <28081c9b612c497197031dc62f88b83d>:0 
+  at Oxide.Plugins.ServerTimer.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00187] in <28081c9b612c497197031dc62f88b83d>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <008b12f41ec4452da1a5497eeb849299>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <ac41dd3599754d448b8c218b34645820>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <ac41dd3599754d448b8c218b34645820>:0 
+18:32 [Error] Failed to call hook 'purgeTimerSet' on plugin 'ServerTimer v0.0.1' (FormatException: String was not recognized as a valid DateTime.)
+  at System.DateTimeParse.ParseExact (System.String s, System.String format, System.Globalization.DateTimeFormatInfo dtfi, System.Globalization.DateTimeStyles style) [0x0002a] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.DateTime.ParseExact (System.String s, System.String format, System.IFormatProvider provider) [0x00008] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at Oxide.Plugins.ServerTimer.purgeTimerSet (BasePlayer player, System.String command, System.String[] args) [0x0007d] in <28081c9b612c497197031dc62f88b83d>:0 
+  at Oxide.Plugins.ServerTimer.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00187] in <28081c9b612c497197031dc62f88b83d>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <008b12f41ec4452da1a5497eeb849299>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <ac41dd3599754d448b8c218b34645820>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <ac41dd3599754d448b8c218b34645820>:0 
+18:33 [Info] ServerTimer was compiled successfully in 1868ms
+18:33 [Info] Unloaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+18:33 [Info] Loaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+18:33 [Error] Failed to call hook 'purgeTimerSet' on plugin 'ServerTimer v0.0.1' (FormatException: String was not recognized as a valid DateTime.)
+  at System.DateTimeParse.ParseExact (System.String s, System.String format, System.Globalization.DateTimeFormatInfo dtfi, System.Globalization.DateTimeStyles style) [0x0002a] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.DateTime.ParseExact (System.String s, System.String format, System.IFormatProvider provider) [0x00008] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at Oxide.Plugins.ServerTimer.purgeTimerSet (BasePlayer player, System.String command, System.String[] args) [0x0007d] in <9f5504d6f7414b99a9398a54341eaf4c>:0 
+  at Oxide.Plugins.ServerTimer.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00187] in <9f5504d6f7414b99a9398a54341eaf4c>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <008b12f41ec4452da1a5497eeb849299>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <ac41dd3599754d448b8c218b34645820>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <ac41dd3599754d448b8c218b34645820>:0 
+18:34 [Info] ServerTimer was compiled successfully in 1856ms
+18:34 [Info] Unloaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+18:34 [Info] Loaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+18:34 [Info] ServerTimer was compiled successfully in 229ms
+18:34 [Info] Unloaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+18:34 [Info] Loaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+18:38 [Error] Failed to call hook 'purgeTimerSet' on plugin 'ServerTimer v0.0.1' (FormatException: String was not recognized as a valid DateTime.)
+  at System.DateTimeParse.ParseExact (System.String s, System.String format, System.Globalization.DateTimeFormatInfo dtfi, System.Globalization.DateTimeStyles style) [0x0002a] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at System.DateTime.ParseExact (System.String s, System.String format, System.IFormatProvider provider) [0x00008] in <437ba245d8404784b9fbab9b439ac908>:0 
+  at Oxide.Plugins.ServerTimer.purgeTimerSet (BasePlayer player, System.String command, System.String[] args) [0x0007d] in <dd95657c2f184162ad8aa9234e7c1019>:0 
+  at Oxide.Plugins.ServerTimer.DirectCallHook (System.String name, System.Object& ret, System.Object[] args) [0x00187] in <dd95657c2f184162ad8aa9234e7c1019>:0 
+  at Oxide.Plugins.CSharpPlugin.InvokeMethod (Oxide.Core.Plugins.HookMethod method, System.Object[] args) [0x00079] in <008b12f41ec4452da1a5497eeb849299>:0 
+  at Oxide.Core.Plugins.CSPlugin.OnCallHook (System.String name, System.Object[] args) [0x000d8] in <ac41dd3599754d448b8c218b34645820>:0 
+  at Oxide.Core.Plugins.Plugin.CallHook (System.String hook, System.Object[] args) [0x00060] in <ac41dd3599754d448b8c218b34645820>:0 
+18:38 [Info] ServerTimer was compiled successfully in 1958ms
+18:38 [Info] Unloaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+18:38 [Info] Loaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+18:39 [Info] ServerTimer was compiled successfully in 159ms
+18:39 [Info] Unloaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+18:39 [Info] Loaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+18:40 [Info] ServerTimer was compiled successfully in 1901ms
+18:40 [Info] Unloaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+18:40 [Info] Loaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+18:40 [Info] ServerTimer was compiled successfully in 208ms
+18:40 [Info] Unloaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+18:40 [Info] Loaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+18:42 [Info] ServerTimer was compiled successfully in 1879ms
+18:42 [Info] Unloaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+18:42 [Info] Loaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+18:43 [Info] ServerTimer was compiled successfully in 232ms
+18:43 [Info] Unloaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+18:43 [Info] Loaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+18:43 [Info] ServerTimer was compiled successfully in 199ms
+18:43 [Info] Unloaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+18:43 [Info] Loaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+18:43 [Info] ServerTimer was compiled successfully in 483ms
+18:43 [Info] Unloaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+18:43 [Info] Loaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+18:44 [Info] ServerTimer was compiled successfully in 188ms
+18:44 [Info] Unloaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+18:44 [Info] Loaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+18:46 [Error] Error while compiling: ServerTimer.cs(91,30): error CS1525: Unexpected symbol `)'
+18:47 [Info] ServerTimer was compiled successfully in 2047ms
+18:47 [Info] Unloaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+18:47 [Info] Loaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+18:48 [Info] ServerTimer was compiled successfully in 183ms
+18:48 [Info] Unloaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+18:48 [Info] Loaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+18:50 [Info] ServerTimer was compiled successfully in 1951ms
+18:50 [Info] Unloaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+18:50 [Info] Loaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+18:50 [Info] ServerTimer was compiled successfully in 225ms
+18:50 [Info] Unloaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+18:50 [Info] Loaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+18:58 [Error] Error while compiling: ServerTimer.cs(90,64): error CS1503: Argument `#1' cannot convert `int' expression to type `System.DateTime'
+18:58 [Error] Error while compiling: ServerTimer.cs(90,64): error CS1503: Argument `#1' cannot convert `int' expression to type `System.DateTime'
+18:59 [Info] ServerTimer was compiled successfully in 305ms
+18:59 [Info] Unloaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+18:59 [Info] Loaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+19:00 [Info] ServerTimer was compiled successfully in 1933ms
+19:00 [Info] Unloaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+19:00 [Info] Loaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+19:01 [Info] ServerTimer was compiled successfully in 1949ms
+19:01 [Info] Unloaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+19:01 [Info] Loaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+19:01 [Info] ServerTimer was compiled successfully in 169ms
+19:01 [Info] Unloaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+19:01 [Info] Loaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+19:06 [Info] ServerTimer was compiled successfully in 1950ms
+19:06 [Info] Unloaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+19:06 [Info] Loaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+19:06 [Info] ServerTimer was compiled successfully in 195ms
+19:06 [Info] Unloaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+19:06 [Info] Loaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+19:07 [Info] ServerTimer was compiled successfully in 292ms
+19:07 [Info] Unloaded plugin AdminHunt v0.0.1 by Oegge & ashbo
+19:07 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:07 [Info] ServerTimer was compiled successfully in 290ms
+19:07 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:07 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:07 [Info] ServerTimer was compiled successfully in 368ms
+19:07 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:07 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:08 [Warning] 'ServerRewards v0.4.69' is using deprecated hook 'OnPlayerInit', which will stop working on Monday, 01 June 2020. Please ask the author to update to 'OnPlayerConnected(BasePlayer player)'
+19:09 [Error] Error while compiling: ServerTimer.cs(148,37): error CS1023: An embedded statement may not be a declaration or labeled statement
+19:10 [Error] Error while compiling: ServerTimer.cs(149,29): error CS0103: The name `arg' does not exist in the current context
+19:12 [Error] Error while compiling: ServerTimer.cs(40,9): error CS0825: The contextual keyword `var' may only appear within a local variable declaration
+19:12 [Info] ServerTimer was compiled successfully in 362ms
+19:12 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:12 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:12 [Info] ServerTimer was compiled successfully in 287ms
+19:12 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:12 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:13 [Info] ServerTimer was compiled successfully in 186ms
+19:13 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:13 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:14 [Info] ServerTimer was compiled successfully in 1979ms
+19:14 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:14 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:14 [Info] ServerTimer was compiled successfully in 248ms
+19:14 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:14 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:15 [Info] ServerTimer was compiled successfully in 171ms
+19:15 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:15 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:15 [Info] ServerTimer was compiled successfully in 188ms
+19:15 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:15 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:16 [Error] Error while compiling: ServerTimer.cs(107,33): error CS0136: A local variable named `player' cannot be declared in this scope because it would give a different meaning to `player', which is already used in a `parent or current' scope to denote something else
+19:16 [Error] Error while compiling: ServerTimer.cs(107,33): error CS0136: A local variable named `player' cannot be declared in this scope because it would give a different meaning to `player', which is already used in a `parent or current' scope to denote something else
+19:16 [Error] Error while compiling: ServerTimer.cs(107,33): error CS0136: A local variable named `player' cannot be declared in this scope because it would give a different meaning to `player', which is already used in a `parent or current' scope to denote something else
+19:16 [Error] Error while compiling: ServerTimer.cs(107,33): error CS0136: A local variable named `player' cannot be declared in this scope because it would give a different meaning to `player', which is already used in a `parent or current' scope to denote something else
+19:16 [Info] ServerTimer was compiled successfully in 149ms
+19:16 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:16 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:17 [Info] ServerTimer was compiled successfully in 227ms
+19:17 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:17 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:17 [Info] ServerTimer was compiled successfully in 145ms
+19:17 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:17 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:18 [Info] ServerTimer was compiled successfully in 169ms
+19:18 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:18 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:18 [Info] ServerTimer was compiled successfully in 192ms
+19:18 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:18 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:18 [Info] ServerTimer was compiled successfully in 188ms
+19:18 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:18 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:20 [Info] ServerTimer was compiled successfully in 2027ms
+19:20 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:20 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:20 [Info] ServerTimer was compiled successfully in 189ms
+19:20 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:20 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:20 [Info] ServerTimer was compiled successfully in 199ms
+19:20 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:20 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:21 [Info] ServerTimer was compiled successfully in 199ms
+19:21 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:21 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:21 [Info] ServerTimer was compiled successfully in 176ms
+19:21 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:21 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:21 [Info] ServerTimer was compiled successfully in 466ms
+19:21 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:21 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:21 [Info] ServerTimer was compiled successfully in 229ms
+19:21 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:21 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:21 [Info] ServerTimer was compiled successfully in 284ms
+19:21 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:21 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:21 [Info] ServerTimer was compiled successfully in 160ms
+19:21 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:21 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:22 [Info] ServerTimer was compiled successfully in 188ms
+19:22 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:22 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:22 [Error] Error while compiling: ServerTimer.cs(175,33): error CS0103: The name `player' does not exist in the current context
+19:23 [Info] ServerTimer was compiled successfully in 209ms
+19:23 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:23 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:24 [Info] ServerTimer was compiled successfully in 2000ms
+19:24 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:24 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:25 [Error] Error while compiling: ServerTimer.cs(170,16): error CS1525: Unexpected symbol `mainName', expecting `(', `[', or `{'
+19:25 [Info] ServerTimer was compiled successfully in 206ms
+19:25 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:25 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:26 [Info] ServerTimer was compiled successfully in 138ms
+19:26 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:26 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:26 [Error] Error while compiling: ServerTimer.cs(106,13): error CS0103: The name `Gui' does not exist in the current context
+19:26 [Error] Error while compiling: ServerTimer.cs(106,13): error CS0103: The name `Gui' does not exist in the current context
+19:27 [Error] Error while compiling: ServerTimer.cs(106,13): error CS0103: The name `Gui' does not exist in the current context
+19:27 [Error] Error while compiling: ServerTimer.cs(106,13): error CS0103: The name `Gui' does not exist in the current context
+19:27 [Error] Error while compiling: ServerTimer.cs(106,13): error CS0103: The name `Gui' does not exist in the current context
+19:27 [Error] Error while compiling: ServerTimer.cs(87,13): error CS0103: The name `Gui' does not exist in the current context
+19:27 [Error] Error while compiling: ServerTimer.cs(87,13): error CS0103: The name `Gui' does not exist in the current context
+19:27 [Info] ServerTimer was compiled successfully in 212ms
+19:27 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:27 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:28 [Error] Error while compiling: ServerTimer.cs(163,22): error CS0111: A member `Oxide.Plugins.ServerTimer.gui(BasePlayer, string, string[])' is already defined. Rename this member or use different parameter types
+19:28 [Error] Error while compiling: ServerTimer.cs(163,22): error CS0111: A member `Oxide.Plugins.ServerTimer.gui(BasePlayer, string, string[])' is already defined. Rename this member or use different parameter types
+19:28 [Info] ServerTimer was compiled successfully in 293ms
+19:28 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:28 [Warning] ServerTimer has replaced the 'c' command previously registered by Clans
+19:28 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:29 [Info] ServerTimer was compiled successfully in 155ms
+19:29 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:29 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:29 [Info] ServerTimer was compiled successfully in 223ms
+19:29 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:29 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:29 [Info] ServerTimer was compiled successfully in 164ms
+19:29 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:29 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:30 [Info] ServerTimer was compiled successfully in 186ms
+19:30 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:30 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:34 [Info] ServerTimer was compiled successfully in 1962ms
+19:34 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:34 [Info] [ServerTimer] Plugin 'Oxide.Plugins.ServerTimer' has been loaded
+19:34 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:34 [Info] ServerTimer was compiled successfully in 253ms
+19:34 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:34 [Info] [ServerTimer] Plugin 'Oxide.Plugins.ServerTimer' has been loaded
+19:34 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:34 [Info] ServerTimer was compiled successfully in 229ms
+19:34 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:34 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:35 [Info] ServerTimer was compiled successfully in 224ms
+19:35 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:35 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:35 [Error] Error while compiling: ServerTimer.cs(90,17): error CS1501: No overload for method `gui' takes `1' arguments
+19:35 [Error] Error while compiling: ServerTimer.cs(90,27): error CS1525: Unexpected symbol `)'
+19:36 [Error] Error while compiling: ServerTimer.cs(90,31): error CS1525: Unexpected symbol `)'
+19:36 [Error] Error while compiling: ServerTimer.cs(109,16): error CS1525: Unexpected symbol `void', expecting `class', `delegate', `enum', `interface', `partial', or `struct'
+19:36 [Error] Error while compiling: ServerTimer.cs(90,30): error CS1525: Unexpected symbol `['
+19:36 [Error] Error while compiling: ServerTimer.cs(91,30): error CS1525: Unexpected symbol `)'
+19:37 [Info] ServerTimer was compiled successfully in 207ms
+19:37 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:37 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:37 [Info] ServerTimer was compiled successfully in 178ms
+19:37 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:37 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:38 [Error] Error while compiling: ServerTimer.cs(89,33): error CS0136: A local variable named `player' cannot be declared in this scope because it would give a different meaning to `player', which is already used in a `parent or current' scope to denote something else
+19:39 [Error] Error while compiling: ServerTimer.cs(89,33): error CS0136: A local variable named `player' cannot be declared in this scope because it would give a different meaning to `player', which is already used in a `parent or current' scope to denote something else
+19:40 [Info] ServerTimer was compiled successfully in 578ms
+19:40 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:40 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:40 [Info] ServerTimer was compiled successfully in 175ms
+19:40 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:40 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:42 [Info] ServerTimer was compiled successfully in 1934ms
+19:42 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:42 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:43 [Info] ServerTimer was compiled successfully in 178ms
+19:43 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:43 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:43 [Info] ServerTimer was compiled successfully in 226ms
+19:43 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:43 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:43 [Info] ServerTimer was compiled successfully in 186ms
+19:43 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:43 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:44 [Info] ServerTimer was compiled successfully in 165ms
+19:44 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:44 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:45 [Info] ServerTimer was compiled successfully in 236ms
+19:45 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:45 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:45 [Info] ServerTimer was compiled successfully in 174ms
+19:45 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:45 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:45 [Info] ServerTimer was compiled successfully in 212ms
+19:45 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:45 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:45 [Info] ServerTimer was compiled successfully in 304ms
+19:45 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:45 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:45 [Info] ServerTimer was compiled successfully in 211ms
+19:45 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:45 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:46 [Info] ServerTimer was compiled successfully in 270ms
+19:46 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:46 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:46 [Info] ServerTimer was compiled successfully in 196ms
+19:46 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:46 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:50 [Info] ServerTimer was compiled successfully in 1929ms
+19:50 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:50 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:52 [Info] ServerTimer was compiled successfully in 1926ms
+19:52 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:52 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:52 [Info] ServerTimer was compiled successfully in 185ms
+19:52 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:52 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:52 [Info] ServerTimer was compiled successfully in 162ms
+19:52 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:52 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:53 [Info] ServerTimer was compiled successfully in 253ms
+19:53 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:53 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:53 [Info] ServerTimer was compiled successfully in 186ms
+19:53 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:53 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:54 [Info] ServerTimer was compiled successfully in 390ms
+19:54 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:54 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:54 [Info] ServerTimer was compiled successfully in 159ms
+19:54 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:54 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:55 [Info] ServerTimer was compiled successfully in 241ms
+19:55 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:55 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:56 [Info] ServerTimer was compiled successfully in 137ms
+19:56 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:56 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:57 [Info] ServerTimer was compiled successfully in 1931ms
+19:57 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+19:57 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+19:58 [Error] Error while compiling: ServerTimer.cs(160,33): error CS0136: A local variable named `player' cannot be declared in this scope because it would give a different meaning to `player', which is already used in a `parent or current' scope to denote something else
+19:59 [Error] Error while compiling: ServerTimer.cs(160,33): error CS0136: A local variable named `player' cannot be declared in this scope because it would give a different meaning to `player', which is already used in a `parent or current' scope to denote something else
+19:59 [Error] Error while compiling: ServerTimer.cs(160,33): error CS0136: A local variable named `player' cannot be declared in this scope because it would give a different meaning to `player', which is already used in a `parent or current' scope to denote something else
+19:59 [Error] Error while compiling: ServerTimer.cs(160,33): error CS0136: A local variable named `player' cannot be declared in this scope because it would give a different meaning to `player', which is already used in a `parent or current' scope to denote something else
+19:59 [Error] Error while compiling: ServerTimer.cs(160,33): error CS0136: A local variable named `player' cannot be declared in this scope because it would give a different meaning to `player', which is already used in a `parent or current' scope to denote something else
+19:59 [Error] Error while compiling: ServerTimer.cs(160,33): error CS0136: A local variable named `player' cannot be declared in this scope because it would give a different meaning to `player', which is already used in a `parent or current' scope to denote something else
+19:59 [Error] Error while compiling: ServerTimer.cs(161,17): error CS1501: No overload for method `gui' takes `1' arguments
+20:00 [Info] ServerTimer was compiled successfully in 227ms
+20:00 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+20:00 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+20:02 [Info] ServerTimer was compiled successfully in 1897ms
+20:02 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+20:02 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+20:02 [Info] ServerTimer was compiled successfully in 240ms
+20:02 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+20:02 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+20:02 [Info] ServerTimer was compiled successfully in 160ms
+20:02 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+20:02 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+20:02 [Info] ServerTimer was compiled successfully in 213ms
+20:02 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+20:02 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+20:03 [Info] ServerTimer was compiled successfully in 1907ms
+20:03 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+20:03 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+20:03 [Info] ServerTimer was compiled successfully in 259ms
+20:03 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+20:03 [Warning] ServerTimer has replaced the 'purge' chat command previously registered by ServerTimer
+20:03 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+20:04 [Info] ServerTimer was compiled successfully in 182ms
+20:04 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+20:04 [Warning] ServerTimer has replaced the 'purge' chat command previously registered by ServerTimer
+20:04 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+20:04 [Info] ServerTimer was compiled successfully in 208ms
+20:04 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+20:04 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+20:04 [Info] ServerTimer was compiled successfully in 262ms
+20:04 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+20:04 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+20:05 [Info] ServerTimer was compiled successfully in 169ms
+20:05 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+20:05 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+20:05 [Error] Error while compiling: ServerTimer.cs(91,13): error CS1501: No overload for method `gui' takes `3' arguments
+20:05 [Info] ServerTimer was compiled successfully in 161ms
+20:05 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+20:05 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+20:06 [Error] Error while compiling: ServerTimer.cs(191,42): error CS1525: Unexpected symbol `Timer'
+20:06 [Error] Error while compiling: ServerTimer.cs(184,22): error CS0111: A member `Oxide.Plugins.ServerTimer.c(BasePlayer, string, string[])' is already defined. Rename this member or use different parameter types
+20:06 [Error] Error while compiling: ServerTimer.cs(184,22): error CS0111: A member `Oxide.Plugins.ServerTimer.c(BasePlayer, string, string[])' is already defined. Rename this member or use different parameter types
+20:06 [Error] Error while compiling: ServerTimer.cs(184,22): error CS0111: A member `Oxide.Plugins.ServerTimer.c(BasePlayer, string, string[])' is already defined. Rename this member or use different parameter types
+20:06 [Info] ServerTimer was compiled successfully in 161ms
+20:06 [Info] Unloaded plugin ServerTimer v0.0.1 by Oegge
+20:06 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge

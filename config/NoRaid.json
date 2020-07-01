@@ -1,0 +1,55 @@
+{
+  "FriendBypass": {
+    "Enabled": true,
+    "FriendsApi": {
+      "Enabled": true
+    },
+    "RustIoClans": {
+      "Enabled": true
+    },
+    "PlayerOwner": {
+      "Enabled": true
+    }
+  },
+  "StopAllRaiding": true,
+  "WipeRaiding": {
+    "Enabled": false,
+    "Amount of time from wipe people can raid (minutes)": 60.0,
+    "Amount of seconds to check if players can raid": 5.0
+  },
+  "NoRaidCommand": {
+    "Enabled": true,
+    "DefaultMin": 30.0,
+    "CheckInterval": 2.5
+  },
+  "Ui": {
+    "Enabled": false,
+    "RefreshInterval": 1.0,
+    "PrimaryColor": {
+      "R": 196.0,
+      "G": 65.0,
+      "B": 50.0,
+      "A": 1.0
+    },
+    "DarkColor": {
+      "R": 119.0,
+      "G": 38.0,
+      "B": 0.0,
+      "A": 1.0
+    },
+    "AnchorMin": {
+      "X": 0.75,
+      "Y": 0.92
+    },
+    "AnchorMax": {
+      "X": 0.98,
+      "Y": 0.98
+    },
+    "TextColor": {
+      "R": 255.0,
+      "G": 255.0,
+      "B": 255.0,
+      "A": 1.0
+    }
+  }
+}

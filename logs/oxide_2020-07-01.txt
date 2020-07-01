@@ -1,0 +1,46 @@
+16:46 [Info] Loading Oxide Core v2.0.3986...
+16:46 [Info] Loading extensions...
+16:46 [Info] Loaded extension CSharp v2.0.4035 by Oxide Team and Contributors
+16:46 [Info] Loaded extension MySql v2.0.3758 by Oxide Team and Contributors
+16:46 [Info] Loaded extension Rust v2.0.4636 by Oxide Team and Contributors
+16:46 [Info] Loaded extension SQLite v2.0.3760 by Oxide Team and Contributors
+16:46 [Info] Loaded extension Unity v2.0.3772 by Oxide Team and Contributors
+16:46 [Info] Latest compiler MD5: 5fbca0bf39b1c09ddf2fb3686b869242
+16:46 [Info] Local compiler MD5: 5fbca0bf39b1c09ddf2fb3686b869242
+16:46 [Info] Using Covalence provider for game 'Rust'
+16:46 [Info] Loading plugins...
+16:46 [Info] Loaded plugin Rust v2.0.4636 by Oxide Team and Contributors
+16:46 [Info] Loaded plugin Unity v2.0.3772 by Oxide Team and Contributors
+16:46 [Error] Plugin filename BountyHunter2.cs must match the main class BountyHunter (should be BountyHunter.cs)
+16:46 [Info] Added '// Reference: Facepunch.Sqlite' in plugin 'ImageLibrary'
+16:46 [Info] Added '// Reference: UnityEngine.UnityWebRequestModule' in plugin 'ImageLibrary'
+16:47 [Info] AdminHunt, Backpacks, BountyHunter, Clans, CopyPaste, Friends, Grid, ImageLibrary, NoAdminLoot, PermissionsManager, PlayerAdministration, RaidableBases, Raids, ServerRewards, ServerTimer, StartProtection and TequilaSafezone were compiled successfully in 0ms
+16:47 [Warning] [AdminHunt] ServerRewards not detected, unloading ServerRewards
+16:47 [Info] Unloaded plugin AdminHunt v1.0.0 by Oegge & ashbo
+16:47 [Info] Loaded plugin AdminHunt v1.0.0 by Oegge & ashbo
+16:47 [Info] Loaded plugin Backpacks v3.0.2 by LaserHydra
+16:47 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+16:47 [Info] Loaded plugin BountyHunter v2.0.0 by Oegge & ashbo
+16:47 [Info] Loaded plugin Clans v0.1.54 by k1lly0u
+16:47 [Info] Loaded plugin Copy Paste v4.1.20 by Reneb & MiRror & Misstake & misticos
+16:47 [Info] Loaded plugin Friends v2.2.5 by Nogrod
+16:47 [Warning] Calling 'LoadDefaultMessages' on 'Grid v0.0.2' took 111ms
+16:47 [Info] Loaded plugin Grid v0.0.2 by yetzt
+16:47 [Info] Loaded plugin Image Library v2.0.53 by Absolut & K1lly0u
+16:47 [Info] Loaded plugin NoAdminLoot v1.0.3 by ashbo
+16:47 [Info] Loaded plugin PermissionsManager v0.1.1 by Steenamaroo
+16:47 [Info] Loaded plugin PlayerAdministration v1.5.26 by ThibmoRozier
+16:47 [Info] Loaded plugin Raidable Bases v1.0.8 by nivex
+16:47 [Info] Loaded plugin Raids v0.0.1 by Faktura
+16:47 [Info] Loaded plugin ServerRewards v0.4.69 by k1lly0u
+16:47 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+16:47 [Info] Loaded plugin StartProtection v2.3.1 by Norn / wazzzup
+16:47 [Info] Loaded plugin Tequila Safezone v0.0.1 by Faktura
+16:48 [Info] IP address from Steam query: 0.0.0.0
+16:48 [Warning] Calling 'OnServerInitialized' on 'RaidableBases v1.0.8' took 143ms
+16:48 [Warning] [ServerRewards] All UI elements have been successfully generated!
+16:48 [Warning] Calling 'OnServerInitialized' on 'ServerRewards v0.4.69' took 138ms
+16:48 [Info] [StartProtection] Removing 1 old entries from the protection list.
+16:48 [Info] [StartProtection] Start Protection has been enabled [Minutes: 30] (type /sp toggle to disable).
+16:48 [Warning] [StartProtection] Waiting for ImageLibrary to finish image processing!
+16:49 [Info] [Raidable Bases] Grid initialization completed in 4 seconds and 765 milliseconds on a 3000 size map. 4549 locations are on the grid.

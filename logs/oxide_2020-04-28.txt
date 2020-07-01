@@ -1,0 +1,227 @@
+00:00 [Error] Error while compiling: BountyHunter.cs(1265,13): error CS0103: The name `FPluginInstance' does not exist in the current context
+00:01 [Error] Error while compiling: BountyHunter.cs(1265,13): error CS0103: The name `FPluginInstance' does not exist in the current context
+00:03 [Error] Error while compiling: BountyHunter.cs(1217,1): error CS1038: #endregion directive expected
+00:03 [Error] Error while compiling: BountyHunter.cs(1217,1): error CS1038: #endregion directive expected
+00:03 [Error] Error while compiling: BountyHunter.cs(1192,21): error CS0103: The name `Instance' does not exist in the current context
+00:04 [Error] Error while compiling: BountyHunter.cs(1186,31): error CS1061: Type `Oxide.Plugins.BountyHunter' does not contain a definition for `LogError' and no extension method `LogError' of type `Oxide.Plugins.BountyHunter' could be found. Are you missing an assembly reference?
+00:04 [Error] Error while compiling: BountyHunter.cs(1179,75): error CS0103: The name `Cui' does not exist in the current context
+00:07 [Info] BountyHunter was compiled successfully in 2072ms
+00:07 [Info] Unloaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+00:07 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+00:07 [Info] Loaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+00:13 [Error] Error while compiling: BountyHunter.cs(1055,16): error CS1525: Unexpected symbol `container'
+00:13 [Error] Error while compiling: BountyHunter.cs(1051,31): error CS0103: The name `aInputField' does not exist in the current context
+00:13 [Error] Error while compiling: BountyHunter.cs(1051,31): error CS0029: Cannot implicitly convert type `string' to `float'
+00:14 [Info] BountyHunter was compiled successfully in 336ms
+00:14 [Info] Unloaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+00:14 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+00:14 [Info] Loaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+00:14 [Error] Error while compiling: BountyHunter.cs(1052,36): error CS1503: Argument `#1' cannot convert `Oxide.Plugins.BountyHunter.CuiInputField' expression to type `Oxide.Game.Rust.Cui.ICuiComponent'
+00:15 [Error] Error while compiling: BountyHunter.cs(1154,0): error CS1525: Unexpected symbol `}'
+00:15 [Info] BountyHunter was compiled successfully in 279ms
+00:15 [Info] Unloaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+00:15 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+00:15 [Info] Loaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+00:15 [Info] BountyHunter was compiled successfully in 342ms
+00:15 [Info] Unloaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+00:15 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+00:15 [Info] Loaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+00:15 [Info] BountyHunter was compiled successfully in 332ms
+00:15 [Info] Unloaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+00:15 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+00:15 [Info] Loaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+00:17 [Info] BountyHunter was compiled successfully in 2162ms
+00:17 [Info] Unloaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+00:17 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+00:17 [Info] Loaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+00:17 [Info] BountyHunter was compiled successfully in 221ms
+00:17 [Info] Unloaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+00:17 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+00:17 [Info] Loaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+00:17 [Info] BountyHunter was compiled successfully in 215ms
+00:17 [Info] Unloaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+00:17 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+00:17 [Info] Loaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+00:19 [Warning] [DEBUG] Reload requested for plugin which is already loading: BountyHunter
+00:19 [Info] BountyHunter was compiled successfully in 2217ms
+00:19 [Info] Unloaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+00:19 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+00:19 [Info] Loaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+00:21 [Error] Error while compiling: BountyHunter.cs(1059,27): error CS0103: The name `CMainPageBanIdInputTextCmd' does not exist in the current context
+00:21 [Error] Error while compiling: BountyHunter.cs(1059,27): error CS0103: The name `CMainPageBanIdInputTextCmd' does not exist in the current context
+00:21 [Info] BountyHunter was compiled successfully in 357ms
+00:21 [Info] Unloaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+00:21 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+00:21 [Info] Loaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+00:22 [Error] Error while compiling: BountyHunter.cs(1067,29): error CS0103: The name `CMainPageEdtBanByIdRtAnchor' does not exist in the current context
+00:22 [Info] BountyHunter was compiled successfully in 312ms
+00:22 [Info] Unloaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+00:22 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+00:22 [Info] Loaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+00:22 [Info] BountyHunter was compiled successfully in 289ms
+00:22 [Info] Unloaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+00:22 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+00:22 [Info] Loaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+00:23 [Info] BountyHunter was compiled successfully in 311ms
+00:23 [Info] Unloaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+00:23 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+00:23 [Info] Loaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+00:23 [Info] BountyHunter was compiled successfully in 377ms
+00:23 [Info] Unloaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+00:23 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+00:23 [Info] Loaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+00:24 [Info] BountyHunter was compiled successfully in 2072ms
+00:24 [Info] Unloaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+00:24 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+00:24 [Info] Loaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+00:24 [Info] BountyHunter was compiled successfully in 289ms
+00:24 [Info] Unloaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+00:24 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+00:24 [Info] Loaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+00:25 [Info] BountyHunter was compiled successfully in 188ms
+00:25 [Info] Unloaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+00:25 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+00:25 [Info] Loaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+00:26 [Info] BountyHunter was compiled successfully in 2064ms
+00:26 [Info] Unloaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+00:26 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+00:26 [Info] Loaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+00:28 [Info] BountyHunter was compiled successfully in 2293ms
+00:28 [Info] Unloaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+00:28 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+00:28 [Info] Loaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+00:29 [Info] BountyHunter was compiled successfully in 188ms
+00:29 [Info] Unloaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+00:29 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+00:29 [Info] Loaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+00:29 [Info] BountyHunter was compiled successfully in 357ms
+00:29 [Info] Unloaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+00:29 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+00:29 [Info] Loaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+00:54 [Info] BountyHunter was compiled successfully in 4301ms
+00:54 [Info] Unloaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+00:54 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+00:54 [Info] Loaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+01:00 [Error] Error while compiling: BountyHunter.cs(1145,75): error CS0103: The name `Cui' does not exist in the current context
+01:00 [Error] Error while compiling: BountyHunter.cs(1145,75): error CS0103: The name `Cui' does not exist in the current context
+01:00 [Info] BountyHunter was compiled successfully in 404ms
+01:00 [Info] Unloaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+01:00 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+01:00 [Info] Loaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+01:03 [Error] Error while compiling: BountyHunter.cs(1152,0): error CS1525: Unexpected symbol `}'
+01:04 [Info] BountyHunter was compiled successfully in 2236ms
+01:04 [Info] Unloaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+01:04 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+01:04 [Info] Loaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+01:05 [Error] Error while compiling: BountyHunter.cs(1052,20): error CS1525: Unexpected symbol `)', expecting `,' or `;'
+01:05 [Error] Error while compiling: BountyHunter.cs(1052,20): error CS1001: Unexpected symbol `)', expecting identifier
+01:07 [Error] Error while compiling: BountyHunter.cs(1124,13): error CS0103: The name `container' does not exist in the current context
+01:08 [Error] Error while compiling: BountyHunter.cs(1119,25): error CS0103: The name `anchormax' does not exist in the current context
+01:08 [Error] Error while compiling: BountyHunter.cs(1119,25): error CS0103: The name `anchormax' does not exist in the current context
+01:08 [Error] Error while compiling: BountyHunter.cs(1121,25): error CS0103: The name `anchormax' does not exist in the current context
+01:10 [Error] Error while compiling: BountyHunter.cs(1121,25): error CS0103: The name `anchormax' does not exist in the current context
+01:10 [Error] Error while compiling: BountyHunter.cs(1121,25): error CS0103: The name `anchormax' does not exist in the current context
+01:10 [Error] Error while compiling: BountyHunter.cs(1121,25): error CS0103: The name `anchormax' does not exist in the current context
+01:10 [Error] Error while compiling: BountyHunter.cs(1121,25): error CS0103: The name `anchormax' does not exist in the current context
+01:10 [Error] Error while compiling: BountyHunter.cs(1121,25): error CS0103: The name `anchormax' does not exist in the current context
+01:11 [Error] Error while compiling: BountyHunter.cs(1123,66): error CS0103: The name `step' does not exist in the current context
+01:11 [Error] Error while compiling: BountyHunter.cs(1123,66): error CS0103: The name `step' does not exist in the current context
+01:11 [Error] Error while compiling: BountyHunter.cs(1123,66): error CS0103: The name `step' does not exist in the current context
+01:12 [Error] Error while compiling: BountyHunter.cs(1123,48): error CS0103: The name `AnchorMax2Start' does not exist in the current context
+01:12 [Error] Error while compiling: BountyHunter.cs(1107,26): error CS0103: The name `ParentClass' does not exist in the current context
+01:13 [Error] Error while compiling: BountyHunter.cs(1053,17): error CS1501: No overload for method `addingInput' takes `2' arguments
+01:13 [Info] BountyHunter was compiled successfully in 357ms
+01:13 [Info] Unloaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+01:13 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+01:13 [Info] Loaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+01:13 [Info] BountyHunter was compiled successfully in 230ms
+01:13 [Info] Unloaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+01:13 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+01:13 [Info] Loaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+01:14 [Info] BountyHunter was compiled successfully in 285ms
+01:14 [Info] Unloaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+01:14 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+01:14 [Info] Loaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+01:14 [Error] Error while compiling: BountyHunter.cs(1127,27): error CS0103: The name `TestNameInput' does not exist in the current context
+01:14 [Info] BountyHunter was compiled successfully in 279ms
+01:14 [Info] Unloaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+01:14 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+01:14 [Info] Loaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+01:20 [Info] BountyHunter was compiled successfully in 2127ms
+01:20 [Info] Unloaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+01:20 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+01:20 [Info] Loaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+01:21 [Info] BountyHunter was compiled successfully in 2057ms
+01:21 [Info] Unloaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+01:21 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+01:21 [Info] Loaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+01:22 [Info] BountyHunter was compiled successfully in 213ms
+01:22 [Info] Unloaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+01:22 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+01:22 [Info] Loaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+01:23 [Info] BountyHunter was compiled successfully in 2127ms
+01:23 [Info] Unloaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+01:23 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+01:23 [Info] Loaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+01:23 [Info] BountyHunter was compiled successfully in 227ms
+01:23 [Info] Unloaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+01:23 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+01:23 [Info] Loaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+01:24 [Info] BountyHunter was compiled successfully in 188ms
+01:24 [Info] Unloaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+01:24 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+01:24 [Info] Loaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+01:24 [Info] BountyHunter was compiled successfully in 252ms
+01:24 [Info] Unloaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+01:24 [Warning] [BountyHunter] ServerRewards not loaded. You will not be able to place, remove or fulfill any bounty.
+01:24 [Info] Loaded plugin BountyHunter v1.0.2 by Oegge & ashbo
+01:25 [Error] Error while compiling: BountyHunter.cs(71,33): error CS0115: `Oxide.Plugins.BountyHunter.SaveConfig()' is marked as an override but no suitable method found to override
+01:25 [Error] Error while compiling: BountyHunter.cs(655,33): error CS0117: `ConVar.Player' does not contain a definition for `FindById'
+22:38 [Info] Loading Oxide Core v2.0.3982...
+22:38 [Info] Loading extensions...
+22:38 [Info] Loaded extension CSharp v2.0.4023 by Oxide Team and Contributors
+22:38 [Info] Loaded extension MySql v2.0.3758 by Oxide Team and Contributors
+22:38 [Info] Loaded extension Rust v2.0.4556 by Oxide Team and Contributors
+22:39 [Info] Loaded extension SQLite v2.0.3760 by Oxide Team and Contributors
+22:39 [Info] Loaded extension Unity v2.0.3772 by Oxide Team and Contributors
+22:39 [Info] Latest compiler MD5: 5fbca0bf39b1c09ddf2fb3686b869242
+22:39 [Info] Local compiler MD5: 5fbca0bf39b1c09ddf2fb3686b869242
+22:39 [Info] Using Covalence provider for game 'Rust'
+22:39 [Info] Loading plugins...
+22:39 [Info] Loaded plugin Rust v2.0.4556 by Oxide Team and Contributors
+22:39 [Info] Loaded plugin Unity v2.0.3772 by Oxide Team and Contributors
+22:39 [Info] Added '// Reference: Facepunch.Sqlite' in plugin 'ImageLibrary'
+22:39 [Info] Added '// Reference: UnityEngine.UnityWebRequestModule' in plugin 'ImageLibrary'
+22:39 [Info] AdminHunt, Backpacks, Clans, CopyPaste, Friends, Grid, ImageLibrary, NoAdminLoot, PermissionsManager, PlayerAdministration, RaidableBases, Raids, ServerRewards, ServerTimer, StartProtection and TequilaSafezone were compiled successfully in 0ms
+22:39 [Error] Error while compiling: BountyHunter.cs(655,33): error CS0117: `ConVar.Player' does not contain a definition for `FindById'
+22:39 [Warning] [AdminHunt] ServerRewards not detected, unloading ServerRewards
+22:39 [Info] Unloaded plugin AdminHunt v1.0.0 by Oegge & ashbo
+22:39 [Info] Loaded plugin AdminHunt v1.0.0 by Oegge & ashbo
+22:39 [Info] Loaded plugin Backpacks v3.0.2 by LaserHydra
+22:39 [Info] Loaded plugin Clans v0.1.54 by k1lly0u
+22:39 [Info] Loaded plugin Copy Paste v4.1.20 by Reneb & MiRror & Misstake & misticos
+22:39 [Info] Loaded plugin Friends v2.2.5 by Nogrod
+22:39 [Warning] Calling 'LoadDefaultMessages' on 'Grid v0.0.2' took 123ms
+22:39 [Info] Loaded plugin Grid v0.0.2 by yetzt
+22:39 [Info] Loaded plugin Image Library v2.0.53 by Absolut & K1lly0u
+22:39 [Info] Loaded plugin NoAdminLoot v1.0.3 by ashbo
+22:39 [Info] Loaded plugin PermissionsManager v0.1.1 by Steenamaroo
+22:39 [Info] Loaded plugin PlayerAdministration v1.5.26 by ThibmoRozier
+22:39 [Info] Loaded plugin Raidable Bases v1.0.8 by nivex
+22:39 [Info] Loaded plugin Raids v0.0.1 by Faktura
+22:39 [Info] Loaded plugin ServerRewards v0.4.69 by k1lly0u
+22:39 [Info] Loaded plugin ServerTimer v0.0.1 by Oegge
+22:39 [Info] Loaded plugin StartProtection v2.3.1 by Norn / wazzzup
+22:39 [Info] Loaded plugin Tequila Safezone v0.0.1 by Faktura
+22:41 [Info] IP address from Steam query: 0.0.0.0
+22:41 [Warning] Calling 'OnServerInitialized' on 'RaidableBases v1.0.8' took 138ms
+22:41 [Warning] [ServerRewards] All UI elements have been successfully generated!
+22:41 [Warning] Calling 'OnServerInitialized' on 'ServerRewards v0.4.69' took 122ms
+22:41 [Info] [StartProtection] Entry list up to date.
+22:41 [Info] [StartProtection] Start Protection has been enabled [Minutes: 30] (type /sp toggle to disable).
+22:41 [Warning] [StartProtection] Waiting for ImageLibrary to finish image processing!
+22:41 [Info] [Raidable Bases] Grid initialization completed in 5 seconds and 192 milliseconds on a 3000 size map. 4599 locations are on the grid.
+22:59 [Warning] 'ServerRewards v0.4.69' is using deprecated hook 'OnPlayerInit', which will stop working on Monday, 01 June 2020. Please ask the author to update to 'OnPlayerConnected(BasePlayer player)'
+23:20 [Info] CopyPaste was compiled successfully in 2183ms
+23:20 [Info] Unloaded plugin Copy Paste v4.1.20 by Reneb & MiRror & Misstake & misticos
+23:20 [Info] Loaded plugin Copy Paste v4.1.20 by Reneb & MiRror & Misstake & misticos

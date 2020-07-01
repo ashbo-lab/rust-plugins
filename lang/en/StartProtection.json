@@ -1,0 +1,17 @@
+{
+  "title": "StartProtection",
+  "tPunishment": "<color=red>You have been punished for attempting to PVP with Start Protection Enabled!</color>\n{minutes_revoked} minutes revoked.\nYou now have <color=#FF3300>{minutes_left}</color> minutes left before your Start Protection is disabled.",
+  "tFirstSpawn": "Start protection enabled for {minutes_left} minutes, during this time you will not take damage from PvP.\nYou can check how much time you have left - /sp time\nTo turn protection off - /sp end",
+  "tSpawn": "You have {minutes_left} minutes left before your Start Protection is disabled.",
+  "cantDo": "You have PVP Protection and can't loot/pickup that.\n{minutes_left} minutes left before your Start Protection is disabled.\nTo turn protection off - /sp end",
+  "tProtectionEnded": "Start protection <color=#FF3300>disabled</color>, you are now on your own.",
+  "tNoProtection": "Start protection status is currently <color=#FF3300>disabled</color>.",
+  "tAttackAttempt": "The player you are trying to attack has Start Protection enabled and <color=#FF3300>cannot</color> be damaged.",
+  "tDisabled": "Start Protection is currently <color=#FF3300>disabled</color> server-wide.",
+  "tEnabled": "Start Protection has been <color=#66FF66>enabled</color>, new players will now be protected upon spawning.",
+  "tNoAuthLevel": "You <color=#FF3300>do not</color> have access to this command.",
+  "tDBCleared": "You have <color=#FF3300>cleared</color> the Start Protection database.",
+  "UIText": "NO PVP\n{0} min.",
+  "EndWarning": "<color=red>Warning!</color> Your protection will end in {0} seconds.",
+  "EndWarningRaid": "<color=red>Warning!</color> Leave RaidBlock or your protection will end in {0} seconds."
+}
