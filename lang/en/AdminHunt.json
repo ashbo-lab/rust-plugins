@@ -1,9 +1,0 @@
-{
-  "Currency": "Gold",
-  "AdminKilled": "you have succesfully killed an the Admin {2}. Have fun with your Reward: {0} {1} ",
-  "RewardChanged": "you have succesfully changed the bounty on the admins to ",
-  "HuntStart": "God has forsaken the Admins, hunt them down to get {0} {1}",
-  "HuntStop": "God has taken pity on the Admins and starts his protection again",
-  "AdminSighted": "{0} has been Sighted at {1}|{2} be fast and Claim the Reward",
-  "Help": "Commands are: \n /AH.set to set Reward \n /AH.hunt to start hunt\n /AH.timer to set the timers of the location and info message \n /AH.event true/false to set event bypass for Rewards during an event"
-}
