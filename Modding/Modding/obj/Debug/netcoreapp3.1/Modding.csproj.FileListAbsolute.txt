@@ -1,0 +1,4 @@
+C:\Users\matth\source\repos\Modding\Modding\obj\Debug\netcoreapp3.1\Modding.csprojAssemblyReference.cache
+C:\Users\matth\source\repos\Modding\Modding\obj\Debug\netcoreapp3.1\Modding.csproj.CoreCompileInputs.cache
+C:\Users\matth\source\repos\Modding\Modding\obj\Debug\netcoreapp3.1\Modding.AssemblyInfoInputs.cache
+C:\Users\matth\source\repos\Modding\Modding\obj\Debug\netcoreapp3.1\Modding.AssemblyInfo.cs
