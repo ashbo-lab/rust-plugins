@@ -250,7 +250,7 @@ namespace Oxide.Plugins
 
         #endregion
 
-        #region RawGUICommands
+        #region RawPluginCommands
 
         // place a reward of "reward" Gold on the death of the given "player"
         private void cmdPlaceBounty(IPlayer client, IPlayer victim, int reward) {
@@ -392,9 +392,8 @@ namespace Oxide.Plugins
             SaveData();
         }
 
-        //TODO: Communicate existing Bounty Stations
         //Sends a list of all active bounty stations with their grid coords as a chat message to the client
-        private void cmdListStation(IPlayer client)
+        private void cmdSendStations(IPlayer client)
         {
             String list = listStations();
             client.Reply(list);
