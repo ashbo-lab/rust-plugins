@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Modding",
+    "\\Modding\\Modding",
+    "\\Modding\\Modding\\new"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\Modding\\Modding\\new",
   "PreviewInSolutionExplorer": false
 }

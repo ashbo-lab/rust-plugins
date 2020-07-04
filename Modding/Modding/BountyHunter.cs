@@ -273,7 +273,7 @@ namespace Oxide.Plugins
             if (reward <= 0)
             {
                 client.Reply("nice try");
-                if (takeGold(player, 1))
+                if (takeGold(client, 1))
                     client.Reply("1 Gold has been taken from your account for stealing Server attention.");
                 return;
             }
@@ -430,14 +430,14 @@ namespace Oxide.Plugins
                 return;
             }
 
-            if (!permission.UserHasPermission(player.UserIDString, stationPerm)) {
+            if (!permission.UserHasPermission(player.Id, stationPerm)) {
                 player.Reply("You don't have permission to set a bounty station");
                 return;
             }
             BaseEntity entity = GetTargetEntity(player);
             if (entity == null)
             {
-                players.Reply("There is no Item in you line of sight");
+                player.Reply("There is no Item in you line of sight");
                 return;
             }
             
@@ -509,7 +509,7 @@ namespace Oxide.Plugins
 
             foreach (Mission mission in data.missions)
             {
-                giveGold(players.FindPlayerByID(mission.client.ToString()), mission.reward);
+                giveGold(players.FindPlayerById(mission.client.ToString()), mission.reward);
             }
             data.deadpool = new Dictionary<ulong, HashSet<Mission>>();
             data.missions = new HashSet<Mission>();
@@ -527,19 +527,19 @@ namespace Oxide.Plugins
         private void hunted(IPlayer hunter, IPlayer victim) {
             int gold = getTotalReward(victim);
             giveGold(hunter, gold);
-            hunter.Reply("You have succesfully hunted down " + victim.displayName + ". Enjoy your reward: "+gold+" gold!");
+            hunter.Reply("You have succesfully hunted down " + victim.Name + ". Enjoy your reward: "+gold+" gold!");
 
-            HashSet<Mission> ended = data.deadpool[ulong.Parse(victim.ID)];
+            HashSet<Mission> ended = data.deadpool[ulong.Parse(victim.Id)];
             foreach (Mission mission in ended)
             {
                 data.missions.Remove(mission);
             }
-            data.deadpool.Remove(victim.userID);
+            data.deadpool.Remove(ulong.Parse(victim.Id));
             HashSet<ulong> remove = new HashSet<ulong>();
             foreach (ulong playerID in data.hunts.Keys)
             {
                 
-                data.hunts[playerID].Remove(victim.userID);
+                data.hunts[playerID].Remove(ulong.Parse(victim.Id));
                 if (data.hunts[playerID].Count == 0)
                     remove.Add(playerID);
             }
@@ -568,7 +568,7 @@ namespace Oxide.Plugins
         private String listDeadpool() {
             String list = "";
             foreach (ulong playerID in data.deadpool.Keys) {
-                list += (players.FindPlayerByID(playerID).Name + ": " + getTotalReward(players.FindPlayerByID(playerID)) + " gold" + "\n");
+                list += (players.FindPlayerById(playerID.ToString()).Name + ": " + getTotalReward(players.FindPlayerById(playerID.ToString())) + " gold" + "\n");
             }
             return list;
         }

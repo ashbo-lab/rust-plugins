@@ -2,3 +2,7 @@ C:\Users\matth\source\repos\Modding\Modding\obj\Debug\netcoreapp3.1\Modding.cspr
 C:\Users\matth\source\repos\Modding\Modding\obj\Debug\netcoreapp3.1\Modding.csproj.CoreCompileInputs.cache
 C:\Users\matth\source\repos\Modding\Modding\obj\Debug\netcoreapp3.1\Modding.AssemblyInfoInputs.cache
 C:\Users\matth\source\repos\Modding\Modding\obj\Debug\netcoreapp3.1\Modding.AssemblyInfo.cs
+C:\Users\Anne\Source\Repos\rust-plugins\Modding\Modding\obj\Debug\netcoreapp3.1\Modding.csprojAssemblyReference.cache
+C:\Users\Anne\Source\Repos\rust-plugins\Modding\Modding\obj\Debug\netcoreapp3.1\Modding.AssemblyInfoInputs.cache
+C:\Users\Anne\Source\Repos\rust-plugins\Modding\Modding\obj\Debug\netcoreapp3.1\Modding.AssemblyInfo.cs
+C:\Users\Anne\Source\Repos\rust-plugins\Modding\Modding\obj\Debug\netcoreapp3.1\Modding.csproj.CoreCompileInputs.cache
