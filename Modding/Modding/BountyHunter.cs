@@ -221,6 +221,8 @@ namespace Oxide.Plugins
 
             BasePlayer victim = entity.ToPlayer();
             BasePlayer attacker = info.InitiatorPlayer;
+            IPlayer ivictim = players.FindPlayerById(victim.UserIDString);
+            IPlayer iattacker = players.FindPlayerById(attacker.UserIDString);
 
             if (victim != null && attacker != null && (attacker.userID >= 76560000000000000L) && (victim.userID >= 76560000000000000L)) {
 
@@ -239,7 +241,7 @@ namespace Oxide.Plugins
                 if (victim._health <= 0) {
                     victim.Die();
                     if (data.stations.Count == 0) {
-                        hunted(attacker, victim);
+                        hunted(iattacker, ivictim);
                     }
                 }
                 return true;
