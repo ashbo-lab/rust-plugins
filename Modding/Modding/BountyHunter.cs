@@ -309,14 +309,14 @@ namespace Oxide.Plugins
                     ok = true;
                     removeM.Add(mission);
 
-                    data.deadpool[victim.Id].Remove(mission);
-                    if (data.deadpool[victim.Id].Count == 0)
+                    data.deadpool[ulong.Parse(victim.Id)].Remove(mission);
+                    if (data.deadpool[ulong.Parse(victim.Id)].Count == 0)
                     {
                         data.deadpool.Remove(ulong.Parse(victim.Id));
                         HashSet<ulong> removeH = new HashSet<ulong>();
                         foreach (ulong hunterID in data.hunts.Keys)
                         {
-                            IPlayer hunter = players.FindPlayerByID(hunterID.ToString());
+                            IPlayer hunter = players.FindPlayerById(hunterID.ToString());
                             data.hunts[ulong.Parse(hunter.Id)].Remove(ulong.Parse(victim.Id));
                             if (data.hunts[ulong.Parse(hunter.Id)].Count == 0)
                             {
