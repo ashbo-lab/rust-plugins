@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZEZ7P8ue8uNeH5urT0dHUUjY08xWgETMg/pzjIv33FbIdU4ITKHEFXlV0halQiJERZtZp/kusx4yGO+Hvl6ZWw==",
+  "dgSpecHash": "0G0IF7lz34yIDTuvrZNqVBPjswoicWBwDlKxpBk0Y9/7IaHqMQ1z/87KBSHDoSooOexZ5DCZFhCBY8V03B4BgA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\matth\\source\\repos\\Modding\\Modding\\Modding.csproj",
+  "projectFilePath": "C:\\Users\\Anne\\Source\\Repos\\rust-plugins\\Modding\\Modding\\Modding.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\matth\\source\\repos\\Modding\\Modding\\Modding.csproj": {}
+    "C:\\Users\\Anne\\Source\\Repos\\rust-plugins\\Modding\\Modding\\Modding.csproj": {}
   },
   "projects": {
-    "C:\\Users\\matth\\source\\repos\\Modding\\Modding\\Modding.csproj": {
+    "C:\\Users\\Anne\\Source\\Repos\\rust-plugins\\Modding\\Modding\\Modding.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\matth\\source\\repos\\Modding\\Modding\\Modding.csproj",
+        "projectUniqueName": "C:\\Users\\Anne\\Source\\Repos\\rust-plugins\\Modding\\Modding\\Modding.csproj",
         "projectName": "Modding",
-        "projectPath": "C:\\Users\\matth\\source\\repos\\Modding\\Modding\\Modding.csproj",
-        "packagesPath": "C:\\Users\\matth\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\matth\\source\\repos\\Modding\\Modding\\obj\\",
+        "projectPath": "C:\\Users\\Anne\\Source\\Repos\\rust-plugins\\Modding\\Modding\\Modding.csproj",
+        "packagesPath": "C:\\Users\\Anne\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Anne\\Source\\Repos\\rust-plugins\\Modding\\Modding\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\matth\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Anne\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

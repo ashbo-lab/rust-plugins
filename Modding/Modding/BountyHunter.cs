@@ -185,27 +185,27 @@ namespace Oxide.Plugins
             String victimName = item.name.Remove(0, 10);
             victimName = victimName.Remove(victimName.Length - 1);
 
-            BasePlayer victim = BasePlayer.Find(victimName);
+            IPlayer victim = players.FindPlayer(victimName);
 
             if (victim == null)
             {
                 return null;
             }
 
-            BasePlayer hunter = item.GetOwnerPlayer();
+            IPlayer hunter = players.FindPlayerById(item.GetOwnerPlayer().UserIDString);
 
-            //item.Remove();
+            item.Remove();
 
-            if (!data.deadpool.ContainsKey(victim.userID)) {
-                players.FindPlayer(hunter.UserIDString).Reply("There are no bounties set on " + victimName);
-                players.FindPlayer(hunter.UserIDString).Reply("But thank you for this nice skull of " + victimName);
+            if (!data.deadpool.ContainsKey(ulong.Parse(victim.Id))) {
+                hunter.Reply("There are no bounties set on " + victimName);
+                hunter.Reply("But thank you for this nice skull of " + victimName);
                 return null;
             }
 
-            bool legitHunt = data.hunts.ContainsKey(hunter.userID) && data.hunts[hunter.userID].Contains(victim.userID);
+            bool legitHunt = data.hunts.ContainsKey(ulong.Parse(hunter.Id)) && data.hunts[ulong.Parse(hunter.Id)].Contains(ulong.Parse(victim.Id));
             if (!legitHunt) {
-                players.FindPlayer(hunter.UserIDString).Reply("You have not accepted a bounty hunt for " + victim.displayName);
-                players.FindPlayer(hunter.UserIDString).Reply("But thank you for this nice skull of " + victim.displayName);
+                hunter.Reply("You have not accepted a bounty hunt for " + victim.Name);
+                hunter.Reply("But thank you for this nice skull of " + victim.Name);
                 return null;
             }
 
@@ -250,38 +250,32 @@ namespace Oxide.Plugins
 
         #endregion
 
-        #region RawGUICommands
+        #region RawPluginCommands
 
         // place a reward of "reward" Gold on the death of the given "player"
-        // [bounty.place "player" "reward"]
-        // former [ConsoleCommand("bounty.place")]
-        private void cmdPlaceBounty(IPlayer iclient, IPlayer ivictim, int reward) {
+        private void cmdPlaceBounty(IPlayer client, IPlayer victim, int reward) {
 
-            
-            BasePlayer player = BasePlayer.FindByID(ulong.Parse(iclient.Id));
-            IPlayer victim = ivictim;
-            if (!canDoBountyThings(player, victim))
+            if (!canDoBountyThings(client, victim))
             {
-
-                players.FindPlayer(player.UserIDString).Reply("You would stab your own ally's back?! :O");
-                players.FindPlayer(player.UserIDString).Reply("What a dick move...");
-                players.FindPlayer(player.UserIDString).Reply("but ok. Your choice.");
-                players.FindPlayer(player.UserIDString).Reply("*whispers* what an asshole...");
+                client.Reply("You would stab your own ally's back?! :O");
+                client.Reply("What a dick move...");
+                client.Reply("but ok. Your choice.");
+                client.Reply("*whispers* what an asshole...");
             }
 
-            if (!takeGold(player, reward))
+            if (!takeGold(client, reward))
             {
-                players.FindPlayer(player.UserIDString).Reply("You don't have enough gold to pay for this mission");
+                client.Reply("You don't have enough gold to pay for this mission");
                 return;
             }
             if (reward <= 0)
             {
-                players.FindPlayer(player.UserIDString).Reply("nice try");
+                client.Reply("nice try");
                 if (takeGold(player, 1))
-                    players.FindPlayer(player.UserIDString).Reply("1 Gold has been taken from your account for stealing Server attention.");
+                    client.Reply("1 Gold has been taken from your account for stealing Server attention.");
                 return;
             }
-            Mission mission = new Mission(ulong.Parse(victim.Id), player.userID, reward);
+            Mission mission = new Mission(ulong.Parse(victim.Id), ulong.Parse(client.Id), reward);
             data.missions.Add(mission);
             HashSet<Mission> all = new HashSet<Mission>();
             if (data.deadpool.Keys.Contains(ulong.Parse(victim.Id)))
@@ -291,32 +285,18 @@ namespace Oxide.Plugins
             all.Add(mission);
             data.deadpool.Remove(ulong.Parse(victim.Id));
             data.deadpool.Add(ulong.Parse(victim.Id), all);
-            players.FindPlayer(player.UserIDString).Reply("Your have succesfulls placed a bounty of " + reward + " gold on " + victim.Name);
+            client.Reply("Your have succesfulls placed a bounty of " + reward + " gold on " + victim.Name);
 
             SaveData();
         }
 
 
         // removes a bounty you set onto another player and returns your gold
-        //[bounty.remove "player"]
-        [Command("removeBounty")]
-        private void removeBountyCallBack(IPlayer iplayer, String command, string[] args)
-        {
-            var victim =covalence.Players.FindPlayerById(args[0]);
-            System.Console.WriteLine(victim == null);
-            cmdRemoveBounty(iplayer, victim);
-
-            myBountyPage(iplayer, null, args);
-        }
-
-
-            private void cmdRemoveBounty(IPlayer iclient, IPlayer victim)
-        {
-            BasePlayer player = BasePlayer.FindByID(ulong.Parse(iclient.Id));
-
+        private void cmdRemoveBounty(IPlayer client, IPlayer victim){
+            
             if (!data.deadpool.Keys.Contains(ulong.Parse(victim.Id)))
             {
-                players.FindPlayer(player.UserIDString).Reply("There is no bounty on " + victim.Name);
+                client.Reply("There is no bounty on " + victim.Name);
                 return;
             }
 
@@ -324,7 +304,7 @@ namespace Oxide.Plugins
             HashSet<Mission> removeM = new HashSet<Mission>();
             foreach (Mission mission in data.missions)
             {
-                if (mission.client == player.userID && mission.victim == victim.Id)
+                if (mission.client == ulong.Parse(client.Id) && mission.victim == ulong.Parse(victim.Id))
                 {
                     ok = true;
                     removeM.Add(mission);
@@ -332,15 +312,15 @@ namespace Oxide.Plugins
                     data.deadpool[victim.Id].Remove(mission);
                     if (data.deadpool[victim.Id].Count == 0)
                     {
-                        data.deadpool.Remove(victim.userID);
+                        data.deadpool.Remove(ulong.Parse(victim.Id));
                         HashSet<ulong> removeH = new HashSet<ulong>();
                         foreach (ulong hunterID in data.hunts.Keys)
                         {
-                            BasePlayer hunter = BasePlayer.FindByID(hunterID);
-                            data.hunts[hunter.userID].Remove(victim.userID);
-                            if (data.hunts[hunter.userID].Count == 0)
+                            IPlayer hunter = players.FindPlayerByID(hunterID.ToString());
+                            data.hunts[ulong.Parse(hunter.Id)].Remove(ulong.Parse(victim.Id));
+                            if (data.hunts[ulong.Parse(hunter.Id)].Count == 0)
                             {
-                                removeH.Add(hunter.userID);
+                                removeH.Add(ulong.Parse(hunter.Id));
                             }
                         }
                         foreach (ulong hunter in removeH)
@@ -358,87 +338,76 @@ namespace Oxide.Plugins
             }
             if (!ok)
             {
-                players.FindPlayer(player.UserIDString).Reply("There is no active bounty placed on " + victim._name + " by you");
+                client.Reply("There is no active bounty placed on " + victim.Name + " by you");
             }
             else
             {
-                players.FindPlayer(player.UserIDString).Reply("All bounties you had set on " + victim._name + " have been removed succesfully");
+                client.Reply("All bounties you had set on " + victim.Name + " have been removed succesfully");
             }
             SaveData();
         }
 
-        // accepts all bounty requests for player "player"
-        // [bounty.accept "player"]
-        // former [ConsoleCommand("bounty.accept")]
-        private void cmdAcceptBounty(IPlayer iclient, IPlayer ivictim)
+        // accepts all bounty requests on the victim
+        private void cmdAcceptBounty(IPlayer client, IPlayer victim)
         {
-            BasePlayer player = BasePlayer.FindByID(ulong.Parse(iclient.Id));
-            IPlayer victim = ivictim;
-
+            
             if (victim == null)
             {
-                players.FindPlayer(player.UserIDString).Reply("Invalid player name");
+                client.Reply("Invalid player name");
                 return;
             }
 
             if (!data.deadpool.ContainsKey(ulong.Parse(victim.Id)))
             {
-                players.FindPlayer(player.UserIDString).Reply("There are no bounties set on " + victim.Name);
+                client.Reply("There are no bounties set on " + victim.Name);
                 return;
             }
 
              foreach (Mission mission in data.deadpool[ulong.Parse(victim.Id)]) {
-                if (mission.client == player.userID) { 
-                    players.FindPlayer(player.UserIDString).Reply("You can't accept a bounty hunt you've set yourself");
+                if (mission.client == ulong.Parse(client.Id)) { 
+                    client.Reply("You can't accept a bounty hunt you've set yourself");
                     return;
                 }
             }
 
-            if (!canDoBountyThings(player, victim))
+            if (!canDoBountyThings(client, victim))
             {
-                players.FindPlayer(player.UserIDString).Reply("You would stab your own ally's back?! :O");
-                players.FindPlayer(player.UserIDString).Reply("I'm sorry, we don't do that here.");
-                // return;
-            }
-
-            if (!data.hunts.Keys.Contains(player.userID))
-            {
-                data.hunts.Add(player.userID, new HashSet<ulong>());
-            }
-            if (data.hunts[player.userID].Contains(ulong.Parse(victim.Id)))
-            {
-                players.FindPlayer(player.UserIDString).Reply("You already hunt this player");
+                client.Reply("You would stab your own ally's back?! :O");
+                client.Reply("I'm sorry, we don't do that here.");
                 return;
             }
-            data.hunts[player.userID].Add(ulong.Parse(victim.Id));
-            players.FindPlayer(player.UserIDString).Reply("You are on the hunt for " + victim.Name);
-            players.FindPlayer(player.UserIDString).Reply("You may now attack " + victim.Name + " on the whole map. Be aware that " + victim.Name + " will be allowed to defend");
+
+            if (!data.hunts.Keys.Contains(ulong.Parse(client.Id)))
+            {
+                data.hunts.Add(ulong.Parse(client.Id), new HashSet<ulong>());
+            }
+            if (data.hunts[ulong.Parse(client.Id)].Contains(ulong.Parse(victim.Id)))
+            {
+                client.Reply("You already hunt this player");
+                return;
+            }
+            data.hunts[ulong.Parse(client.Id)].Add(ulong.Parse(victim.Id));
+            client.Reply("You are on the hunt for " + victim.Name);
+            client.Reply("You may now attack " + victim.Name + " on the whole map. Be aware that " + victim.Name + " will be allowed to defend");
             SaveData();
         }
 
-        //Sends a list of all active bounty stations with their grid coords
-        //[bounty.station.list]
-        // former [ConsoleCommand("bounty.station.list")]
-        private void cmdListStation(IPlayer iclient)
+        //Sends a list of all active bounty stations with their grid coords as a chat message to the client
+        private void cmdSendStations(IPlayer client)
         {
-            BasePlayer player = BasePlayer.FindByID(ulong.Parse(iclient.Id));
-            
             String list = listStations();
-            players.FindPlayer(player.UserIDString).Reply(list);
+            client.Reply(list);
             if (list.Equals(""))
-                players.FindPlayer(player.UserIDString).Reply("There are no bounty stations set. Rewards will be claimed automatically on a hunted victim's death.");
+                client.Reply("There are no bounty stations set. Rewards will be claimed automatically on a hunted victim's death.");
         }
 
-        //Sends a list of all players with bounties on them and the total reward for their death
-        //[bounty.list]
-        [Command("bounty.list")]
-        private void cmdListBounty(IPlayer iclient)
+        //Sends a list of all players with bounties on them and the total reward for their death as a chat message to the client
+        private void cmdListBounty(IPlayer client)
         {
-            BasePlayer player = BasePlayer.FindByID(ulong.Parse(iclient.Id));   
             String list = listDeadpool();
-            players.FindPlayer(player.UserIDString).Reply(list);
+            client.Reply(list);
             if (list.Equals(""))
-                players.FindPlayer(player.UserIDString).Reply("There are no active bounties at the moment");
+                client.Reply("There are no active bounties at the moment");
         }
 
         #endregion
@@ -451,40 +420,39 @@ namespace Oxide.Plugins
         //If no station is set, players receive their reward on death of the victim.
         // [bounty.station.set]
         [Command("bounty.station.set")]
-        private void cmdBountyStation(IPlayer iplayer, String command, string[] args)
+        private void cmdBountyStation(IPlayer player, String command, string[] args)
         {
-            BasePlayer player = BasePlayer.FindByID(ulong.Parse(iplayer.Id));
             if (args.Length != 0)
             {
-                players.FindPlayer(player.UserIDString).Reply("Invalid Command");
+                player.Reply("Invalid Command");
                 return;
             }
 
             if (!permission.UserHasPermission(player.UserIDString, stationPerm)) {
-                players.FindPlayer(player.UserIDString).Reply("You don't have permission to set a bounty station");
+                player.Reply("You don't have permission to set a bounty station");
                 return;
             }
             BaseEntity entity = GetTargetEntity(player);
             if (entity == null)
             {
-                players.FindPlayer(player.UserIDString).Reply("There is no Item in you line of sight");
+                players.Reply("There is no Item in you line of sight");
                 return;
             }
             
             if (!config.allowedStationItems.ContainsKey(entity.ShortPrefabName)) { 
-                players.FindPlayer(player.UserIDString).Reply("The item in your line of sight may not be chosen as Bounty station");
+                player.Reply("The item in your line of sight may not be chosen as Bounty station");
                 return;
             }
 
             if (!data.stations.ContainsKey(entity.ToString()))
             {
                 data.stations.Add(entity.ToString(),getEntityPos(entity));
-                players.FindPlayer(player.UserIDString).Reply("you have succesfully set this " + entity.ShortPrefabName + " as a bounty station");
+                player.Reply("you have succesfully set this " + entity.ShortPrefabName + " as a bounty station");
                 SaveData();
                 return;
             }
 
-            players.FindPlayer(player.UserIDString).Reply("this item is a bounty station already, duh!");
+            player.Reply("this item is a bounty station already, duh!");
             
         }
 
@@ -492,35 +460,35 @@ namespace Oxide.Plugins
         //If no more station is set, players receive their reward on death of the victim.
         // [bounty.station.remove]
         [Command("bounty.station.remove")]
-        private void cmdRemoveStation(IPlayer iplayer, String command, string[] args) {
-            BasePlayer player = BasePlayer.FindByID(ulong.Parse(iplayer.Id));
+        private void cmdRemoveStation(IPlayer player, String command, string[] args) {
+            
             if (args.Length != 0)
             {
-                players.FindPlayer(player.UserIDString).Reply("Invalid Command");
+                player.Reply("Invalid Command");
                 return;
             }
 
-            if (!permission.UserHasPermission(player.UserIDString, stationPerm))
+            if (!permission.UserHasPermission(player.Id, stationPerm))
             {
-                players.FindPlayer(player.UserIDString).Reply("You don't have permission to remove a bounty station");
+                player.Reply("You don't have permission to remove a bounty station");
                 return;
             }
             BaseEntity entity = GetTargetEntity(player);
             if (entity == null)
             {
-                players.FindPlayer(player.UserIDString).Reply("There is no Item in you line of sight");
+                player.Reply("There is no Item in you line of sight");
                 return;
             }
 
             if (data.stations.ContainsKey(entity.ToString()))
             {
                 data.stations.Remove(entity.ToString());
-                players.FindPlayer(player.UserIDString).Reply("you have successfully removed this " + entity.ShortPrefabName + " from the list of bounty stations");
+                player.Reply("you have successfully removed this " + entity.ShortPrefabName + " from the list of bounty stations");
                 SaveData();
                 return;
             }
 
-            players.FindPlayer(player.UserIDString).Reply("this item is was not a bounty station, duh!");
+            player.Reply("this item was not a bounty station, duh!");
         }
 
 
@@ -528,25 +496,25 @@ namespace Oxide.Plugins
         //deletes all bounties and stations.
         //returns the already paid gold for active bounties to the respective client
         [Command("bounty.reset")]
-        private void cmdReset(IPlayer iplayer, String command, string[] args)
+        private void cmdReset(IPlayer player, String command, string[] args)
         {
-            BasePlayer player = BasePlayer.FindByID(ulong.Parse(iplayer.Id));
-            if (!permission.UserHasPermission(player.UserIDString, resetPerm))
+            
+            if (!permission.UserHasPermission(player.Id, resetPerm))
             {
-                players.FindPlayer(player.UserIDString).Reply("You don't have permission to reset the bounty data");
+                player.Reply("You don't have permission to reset the bounty data");
                 return;
             }
 
             foreach (Mission mission in data.missions)
             {
-                giveGold(BasePlayer.FindByID(mission.client), mission.reward);
+                giveGold(players.FindPlayerByID(mission.client.ToString()), mission.reward);
             }
             data.deadpool = new Dictionary<ulong, HashSet<Mission>>();
             data.missions = new HashSet<Mission>();
             data.hunts = new Dictionary<ulong, HashSet<ulong>>();
             data.stations = new Dictionary<string, string>();
             SaveData();
-            players.FindPlayer(player.UserIDString).Reply("You have succesfully reset the Bounty Plugin to default state");
+            player.Reply("You have succesfully reset the Bounty Plugin to default state");
         }
 
         #endregion
@@ -554,12 +522,12 @@ namespace Oxide.Plugins
         #region Helper
 
         //rewards the succesful hunter and deletes all mission related data.
-        private void hunted(BasePlayer hunter, BasePlayer victim) {
+        private void hunted(IPlayer hunter, IPlayer victim) {
             int gold = getTotalReward(victim);
             giveGold(hunter, gold);
-            players.FindPlayer(hunter.UserIDString).Message("You have succesfully hunted down " + victim.displayName + ". Enjoy your reward: "+gold+" gold!");
+            hunter.Reply("You have succesfully hunted down " + victim.displayName + ". Enjoy your reward: "+gold+" gold!");
 
-            HashSet<Mission> ended = data.deadpool[victim.userID];
+            HashSet<Mission> ended = data.deadpool[ulong.Parse(victim.ID)];
             foreach (Mission mission in ended)
             {
                 data.missions.Remove(mission);
@@ -581,8 +549,8 @@ namespace Oxide.Plugins
         }
 
         // takes gold from the player if he has enough gold. Returns true on success.
-        private bool takeGold(BasePlayer player, int gold) {
-            int credit = (int) (ServerRewards.Call("CheckPoints", player.userID));
+        private bool takeGold(IPlayer player, int gold) {
+            int credit = (int) (ServerRewards.Call("CheckPoints", player));
             if (credit < gold)
                 return false;
             ServerRewards.Call("TakePoints", player, gold);
@@ -590,7 +558,7 @@ namespace Oxide.Plugins
         }
 
         //gives the player gold
-        private void giveGold(BasePlayer player, int gold) {
+        private void giveGold(IPlayer player, int gold) {
             ServerRewards.Call("AddPoints", player, gold);
         }
 
@@ -598,7 +566,7 @@ namespace Oxide.Plugins
         private String listDeadpool() {
             String list = "";
             foreach (ulong playerID in data.deadpool.Keys) {
-                list += (BasePlayer.FindByID(playerID).displayName + ": " + getTotalReward(BasePlayer.FindByID(playerID)) + " gold" + "\n");
+                list += (players.FindPlayerByID(playerID).Name + ": " + getTotalReward(players.FindPlayerByID(playerID)) + " gold" + "\n");
             }
             return list;
         }
@@ -692,11 +660,11 @@ namespace Oxide.Plugins
         #endregion
 
         // counts how much gold is placed on the given player's head in total
-        private int getTotalReward(BasePlayer player)
+        private int getTotalReward(IPlayer player)
         {
             int reward = 0;
             HashSet<Mission> missions;
-            if (data.deadpool.TryGetValue(player.userID, out missions))
+            if (data.deadpool.TryGetValue(ulong.Parse(player.Id), out missions))
             {
                 foreach (Mission mission in missions)
                 {
@@ -707,22 +675,22 @@ namespace Oxide.Plugins
         }
 
         //decided whether the player is allowed to accept a bounty on the victim
-        private bool canDoBountyThings(BasePlayer player, IPlayer victim) {
+        private bool canDoBountyThings(IPlayer player, IPlayer victim) {
 
+           BasePlayer bplayer = BasePlayer.FindByID(ulong.Parse(player.Id));
            
            if (Friends != null)
             {
-                bool friends = (bool)Friends.Call("AreFriends", player.userID, ulong.Parse(victim.Id));
+                bool friends = (bool)Friends.Call("AreFriends", ulong.Parse(player.Id), ulong.Parse(victim.Id));
                 if (friends)
                     return false;
             }
-
-            if (player.Team != null && player.Team.members.Contains(ulong.Parse(victim.Id)))
+           
+            if (bplayer.Team != null && bplayer.Team.members.Contains(ulong.Parse(victim.Id)))
             { 
                     return false;
             }
 
-           
             if (Clans != null)
             {
                 string clanP = (string)Clans.Call("GetClanOf", player);
@@ -736,13 +704,15 @@ namespace Oxide.Plugins
             return true;
         }
 
+        // @requires the player to be online
         //returns the entity in your line of sight
-        private BaseEntity GetTargetEntity(BasePlayer player)
+        private BaseEntity GetTargetEntity(IPlayer player)
         {
+            BasePlayer bplayer = BasePlayer.FindByID(ulong.Parse(player.Id));
             BaseEntity targetEntity;
             RaycastHit hit;
 
-            bool flag = UnityEngine.Physics.Raycast(player.eyes.HeadRay(), out hit, 50);
+            bool flag = UnityEngine.Physics.Raycast(bplayer.eyes.HeadRay(), out hit, 50);
             targetEntity = flag ? hit.GetEntity() : null;
             return targetEntity;
         }
@@ -1011,7 +981,14 @@ namespace Oxide.Plugins
         }
 
 
+        private void removeBountyCallBack(IPlayer iplayer, String command, string[] args)
+        {
+            var victim = covalence.Players.FindPlayerById(args[0]);
+            System.Console.WriteLine(victim == null);
+            cmdRemoveBounty(iplayer, victim);
 
+            myBountyPage(iplayer, null, args);
+        }
 
         private void addingInput(CustomCuiElementContainer container, float step, String parent, BasePlayer player)
         {
