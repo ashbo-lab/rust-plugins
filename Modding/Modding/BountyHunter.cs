@@ -299,16 +299,6 @@ namespace Oxide.Plugins
 
         // removes a bounty you set onto another player and returns your gold
         //[bounty.remove "player"]
-        [Command("removeBounty")]
-        private void removeBountyCallBack(IPlayer iplayer, String command, string[] args)
-        {
-            var victim =covalence.Players.FindPlayerById(args[0]);
-            System.Console.WriteLine(victim == null);
-            cmdRemoveBounty(iplayer, victim);
-
-            myBountyPage(iplayer, null, args);
-        }
-
 
             private void cmdRemoveBounty(IPlayer iclient, IPlayer victim)
         {
@@ -763,8 +753,6 @@ namespace Oxide.Plugins
 
         #endregion
 
-
-
         #region GUIHelper
         private Dictionary<string, string[]> UserInputBounty = new Dictionary<string, string[]>(); // Format: <userId, text>
 
@@ -1043,7 +1031,6 @@ namespace Oxide.Plugins
 
         #endregion
 
-
         #region Custom CUI components
 
         /// <summary>
@@ -1225,9 +1212,19 @@ namespace Oxide.Plugins
         }
 
 
+        [Command("removeBounty")]
+        private void removeBountyCallBack(IPlayer iplayer, String command, string[] args)
+        {
+            var victim = covalence.Players.FindPlayerById(args[0]);
+            System.Console.WriteLine(victim == null);
+            cmdRemoveBounty(iplayer, victim);
+
+            myBountyPage(iplayer, null, args);
+        }
+
         #region AddBounty
 
-       
+
         int page;
         //open a new UIpanel with a list of available players from wich you can selct one to place a bounty
         [Command("availablePlayers")]
