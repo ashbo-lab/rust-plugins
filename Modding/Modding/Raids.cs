@@ -157,6 +157,10 @@ namespace Oxide.Plugins
             SaveConfig();
         }
 
+        private bool getRaid() {
+            return _canRaid;
+        }
+
         #endregion
 
         #region Hooks
